@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { cn } from '@/lib/utils';
@@ -24,8 +25,15 @@ export function NavSidebar() {
 
   return (
     <div className="flex h-full w-64 flex-col border-r bg-muted/40">
-      <div className="flex h-16 items-center border-b px-6">
-        <h1 className="text-lg font-semibold">ICPS Survey Analysis</h1>
+      <div className="flex h-48 items-center border-b px-4">
+        <Image
+          src="/ICPSLogo.png"
+          alt="ICPS Logo"
+          width={180}
+          height={60}
+          className="object-contain"
+          priority
+        />
       </div>
       <nav className="flex-1 space-y-1 p-4">
         {navigation.map((item) => {
