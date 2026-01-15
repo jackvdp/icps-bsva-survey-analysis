@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+data/processed/*.csv
+data/processed/*.json
+analysis/outputs/
+!analysis/outputs/.gitkeep
+
+# Node (for webapp later)
+node_modules/
+.next/
+EOF
