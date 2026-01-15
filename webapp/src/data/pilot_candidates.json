@@ -1,0 +1,1479 @@
+{
+  "all_candidates": [
+    {
+      "country": "Nigeria",
+      "region": "Africa",
+      "composite_score": 6.22,
+      "need_score": 4.0,
+      "capability_score": 7.5,
+      "willingness_score": 4,
+      "suitability": "MEDIUM",
+      "need_components": [
+        "fraud_incidents:4.0",
+        "challenges:2"
+      ],
+      "capability_components": [
+        "biometric_explored"
+      ],
+      "willingness_components": [
+        "followup_yes",
+        "tech_explored:2"
+      ],
+      "scale": {
+        "temp_workers_count": "1,500,000 for General Election",
+        "elections_annually": "At least not less than 10"
+      }
+    },
+    {
+      "country": "Suriname",
+      "region": "Americas",
+      "composite_score": 5.92,
+      "need_score": 5.0,
+      "capability_score": 5.5,
+      "willingness_score": 4,
+      "suitability": "HIGH",
+      "need_components": [
+        "fraud_incidents:2.0",
+        "verification_hours:2.0",
+        "challenges:3",
+        "training_freq:2"
+      ],
+      "capability_components": [
+        "blockers:1",
+        "biometric_explored"
+      ],
+      "willingness_components": [
+        "followup_yes",
+        "tech_explored:2"
+      ],
+      "scale": {
+        "temp_workers_count": "8.450",
+        "elections_annually": "3 elections each 5 years term"
+      }
+    },
+    {
+      "country": "Armenia",
+      "region": "Europe",
+      "composite_score": 5.45,
+      "need_score": 2.5,
+      "capability_score": 7.0,
+      "willingness_score": 4,
+      "suitability": "LOW",
+      "need_components": [
+        "fraud_incidents:1.0",
+        "verification_hours:2.0",
+        "challenges:2"
+      ],
+      "capability_components": [],
+      "willingness_components": [
+        "followup_yes",
+        "tech_explored:3"
+      ],
+      "scale": {
+        "temp_workers_count": "250",
+        "elections_annually": "2"
+      }
+    },
+    {
+      "country": "Sierra Leone",
+      "region": "Africa",
+      "composite_score": 5.42,
+      "need_score": 5.5,
+      "capability_score": 3.5,
+      "willingness_score": 4,
+      "suitability": "LOW",
+      "need_components": [
+        "fraud_incidents:4.0",
+        "verification_hours:2.0",
+        "challenges:2",
+        "training_freq:2"
+      ],
+      "capability_components": [
+        "blockers:1",
+        "biometric_explored"
+      ],
+      "willingness_components": [
+        "followup_yes",
+        "tech_explored:1"
+      ],
+      "scale": {
+        "temp_workers_count": "90,000",
+        "elections_annually": "4 elections per cycle"
+      }
+    },
+    {
+      "country": "Bhutan",
+      "region": "Asia-Pacific",
+      "composite_score": 5.07,
+      "need_score": 1.5,
+      "capability_score": 8.5,
+      "willingness_score": 3,
+      "suitability": "LOW - Limited Need",
+      "need_components": [
+        "verification_hours:4.0"
+      ],
+      "capability_components": [
+        "biometric_explored"
+      ],
+      "willingness_components": [
+        "followup_maybe",
+        "tech_explored:3"
+      ],
+      "scale": {
+        "temp_workers_count": "7000",
+        "elections_annually": "10 plus including byelection"
+      }
+    },
+    {
+      "country": "Uganda",
+      "region": "Africa",
+      "composite_score": 5.0,
+      "need_score": 6.0,
+      "capability_score": 6.0,
+      "willingness_score": 1,
+      "suitability": "LOW",
+      "need_components": [
+        "fraud_incidents:4.0",
+        "verification_hours:2.0",
+        "challenges:3",
+        "training_freq:2"
+      ],
+      "capability_components": [
+        "blockers:1",
+        "biometric_explored"
+      ],
+      "willingness_components": [
+        "tech_explored:1"
+      ],
+      "scale": {
+        "temp_workers_count": "50,000",
+        "elections_annually": "1-5"
+      }
+    },
+    {
+      "country": "Albania",
+      "region": "Europe",
+      "composite_score": 4.82,
+      "need_score": 0.0,
+      "capability_score": 9.5,
+      "willingness_score": 3,
+      "suitability": "LOW - Limited Need",
+      "need_components": [],
+      "capability_components": [
+        "biometric_explored"
+      ],
+      "willingness_components": [
+        "followup_maybe",
+        "tech_explored:2"
+      ],
+      "scale": {
+        "temp_workers_count": "350",
+        "elections_annually": "1-3"
+      }
+    },
+    {
+      "country": "Lesotho",
+      "region": "Africa",
+      "composite_score": 4.8,
+      "need_score": 3.0,
+      "capability_score": 6.0,
+      "willingness_score": 3,
+      "suitability": "MEDIUM",
+      "need_components": [
+        "verification_hours:3.0",
+        "challenges:3",
+        "low_train_conf:3"
+      ],
+      "capability_components": [],
+      "willingness_components": [
+        "followup_yes"
+      ],
+      "scale": {
+        "temp_workers_count": "94 500",
+        "elections_annually": null
+      }
+    },
+    {
+      "country": "Serbia",
+      "region": "Europe",
+      "composite_score": 4.75,
+      "need_score": 2.0,
+      "capability_score": 7.0,
+      "willingness_score": 3,
+      "suitability": "LOW",
+      "need_components": [
+        "fraud_incidents:1.0",
+        "verification_hours:2.0",
+        "challenges:1"
+      ],
+      "capability_components": [],
+      "willingness_components": [
+        "followup_maybe",
+        "tech_explored:1"
+      ],
+      "scale": {
+        "temp_workers_count": "up to 1000",
+        "elections_annually": "1"
+      }
+    },
+    {
+      "country": "Tanzania (Zanzibar)",
+      "region": "Africa",
+      "composite_score": 4.72,
+      "need_score": 1.5,
+      "capability_score": 7.5,
+      "willingness_score": 3,
+      "suitability": "LOW - Limited Need",
+      "need_components": [
+        "verification_hours:3.0",
+        "challenges:1"
+      ],
+      "capability_components": [
+        "blockers:1",
+        "biometric_explored"
+      ],
+      "willingness_components": [
+        "followup_maybe",
+        "tech_explored:1"
+      ],
+      "scale": {
+        "temp_workers_count": "12000",
+        "elections_annually": "3 Elections in % years"
+      }
+    },
+    {
+      "country": "Maldives",
+      "region": "Asia-Pacific",
+      "composite_score": 4.67,
+      "need_score": 1.0,
+      "capability_score": 6.5,
+      "willingness_score": 4,
+      "suitability": "LOW - Limited Need",
+      "need_components": [
+        "challenges:2"
+      ],
+      "capability_components": [
+        "biometric_explored"
+      ],
+      "willingness_components": [
+        "followup_yes",
+        "tech_explored:3"
+      ],
+      "scale": {
+        "temp_workers_count": "200-250 ",
+        "elections_annually": "3 elections in 5-year cycle, referendum and by-elections year round "
+      }
+    },
+    {
+      "country": "Lithuania",
+      "region": "Europe",
+      "composite_score": 4.65,
+      "need_score": 0.0,
+      "capability_score": 9.0,
+      "willingness_score": 3,
+      "suitability": "LOW - Limited Need",
+      "need_components": [],
+      "capability_components": [],
+      "willingness_components": [
+        "followup_maybe",
+        "tech_explored:2"
+      ],
+      "scale": {
+        "temp_workers_count": "About 15 000",
+        "elections_annually": "At least 1 annually."
+      }
+    },
+    {
+      "country": "Europe/Eurasia (Regional)",
+      "region": "Europe",
+      "composite_score": 4.62,
+      "need_score": 2.0,
+      "capability_score": 9.5,
+      "willingness_score": 1,
+      "suitability": "LOW",
+      "need_components": [
+        "fraud_incidents:1.0",
+        "verification_hours:2.0",
+        "challenges:1"
+      ],
+      "capability_components": [
+        "blockchain_explored",
+        "biometric_explored"
+      ],
+      "willingness_components": [
+        "tech_explored:3"
+      ],
+      "scale": {
+        "temp_workers_count": "60 000",
+        "elections_annually": "national elections are not happening annually - 3 elections per 4-5 year electoral cycle. "
+      }
+    },
+    {
+      "country": "Kenya",
+      "region": "Africa",
+      "composite_score": 4.53,
+      "need_score": 1.5,
+      "capability_score": 5.5,
+      "willingness_score": 4,
+      "suitability": "LOW - Limited Need",
+      "need_components": [
+        "challenges:2",
+        "low_train_conf:3"
+      ],
+      "capability_components": [
+        "blockers:1",
+        "biometric_explored"
+      ],
+      "willingness_components": [
+        "followup_yes",
+        "tech_explored:1"
+      ],
+      "scale": {
+        "temp_workers_count": "500000",
+        "elections_annually": "6 elections after every 5 years"
+      }
+    },
+    {
+      "country": "Sierra Leone",
+      "region": "Africa",
+      "composite_score": 4.53,
+      "need_score": 1.5,
+      "capability_score": 5.5,
+      "willingness_score": 4,
+      "suitability": "LOW - Limited Need",
+      "need_components": [
+        "training_freq:2",
+        "low_train_conf:3"
+      ],
+      "capability_components": [
+        "blockers:1",
+        "biometric_explored"
+      ],
+      "willingness_components": [
+        "followup_yes",
+        "tech_explored:2"
+      ],
+      "scale": {
+        "temp_workers_count": "100+",
+        "elections_annually": "At least 2"
+      }
+    },
+    {
+      "country": "Tanzania",
+      "region": "Africa",
+      "composite_score": 4.5,
+      "need_score": 0.5,
+      "capability_score": 8.0,
+      "willingness_score": 3,
+      "suitability": "LOW - Limited Need",
+      "need_components": [
+        "verification_hours:2.0"
+      ],
+      "capability_components": [
+        "blockers:1",
+        "biometric_explored"
+      ],
+      "willingness_components": [
+        "followup_maybe",
+        "tech_explored:2"
+      ],
+      "scale": {
+        "temp_workers_count": "150",
+        "elections_annually": null
+      }
+    },
+    {
+      "country": "Antigua & Barbuda",
+      "region": "Americas",
+      "composite_score": 4.47,
+      "need_score": 0.0,
+      "capability_score": 8.5,
+      "willingness_score": 3,
+      "suitability": "LOW - Limited Need",
+      "need_components": [],
+      "capability_components": [],
+      "willingness_components": [
+        "followup_maybe",
+        "tech_explored:2"
+      ],
+      "scale": {
+        "temp_workers_count": "Over 300",
+        "elections_annually": "No annual elections "
+      }
+    },
+    {
+      "country": "Nigeria",
+      "region": "Africa",
+      "composite_score": 4.42,
+      "need_score": 3.0,
+      "capability_score": 3.5,
+      "willingness_score": 4,
+      "suitability": "LOW",
+      "need_components": [
+        "verification_hours:3.0",
+        "challenges:1",
+        "training_freq:2",
+        "low_train_conf:3"
+      ],
+      "capability_components": [
+        "blockers:1",
+        "biometric_explored"
+      ],
+      "willingness_components": [
+        "followup_yes",
+        "tech_explored:4"
+      ],
+      "scale": {
+        "temp_workers_count": "over 1000",
+        "elections_annually": "5"
+      }
+    },
+    {
+      "country": "Lesotho",
+      "region": "Africa",
+      "composite_score": 4.4,
+      "need_score": 2.0,
+      "capability_score": 6.0,
+      "willingness_score": 3,
+      "suitability": "LOW",
+      "need_components": [
+        "challenges:2",
+        "training_freq:2"
+      ],
+      "capability_components": [],
+      "willingness_components": [
+        "followup_maybe",
+        "tech_explored:2"
+      ],
+      "scale": {
+        "temp_workers_count": "30 000 Temporary workers ",
+        "elections_annually": "Local Government Election (after 5 years) same with National Assembly Elections. "
+      }
+    },
+    {
+      "country": "Somaliland",
+      "region": "Africa",
+      "composite_score": 4.29,
+      "need_score": 3.5,
+      "capability_score": 6.83,
+      "willingness_score": 1,
+      "suitability": "LOW",
+      "need_components": [
+        "fraud_incidents:1.0",
+        "verification_hours:3.0",
+        "challenges:3"
+      ],
+      "capability_components": [
+        "blockers:1",
+        "biometric_explored"
+      ],
+      "willingness_components": [
+        "tech_explored:2"
+      ],
+      "scale": {
+        "temp_workers_count": "4,000",
+        "elections_annually": "1, every two years "
+      }
+    },
+    {
+      "country": "India",
+      "region": "Asia-Pacific",
+      "composite_score": 4.15,
+      "need_score": 0.5,
+      "capability_score": 7.0,
+      "willingness_score": 3,
+      "suitability": "LOW - Limited Need",
+      "need_components": [
+        "verification_hours:2.0"
+      ],
+      "capability_components": [],
+      "willingness_components": [
+        "followup_maybe",
+        "tech_explored:2"
+      ],
+      "scale": {
+        "temp_workers_count": null,
+        "elections_annually": "Varies"
+      }
+    },
+    {
+      "country": "Botswana",
+      "region": "Africa",
+      "composite_score": 4.12,
+      "need_score": 0.0,
+      "capability_score": 7.5,
+      "willingness_score": 3,
+      "suitability": "LOW - Limited Need",
+      "need_components": [],
+      "capability_components": [
+        "blockers:1"
+      ],
+      "willingness_components": [
+        "followup_yes"
+      ],
+      "scale": {
+        "temp_workers_count": "About 44,000",
+        "elections_annually": "Sometimes none annually. However, there may be instances where we have 1 or 2 by-elections. Otherwise elections are held in Botswana after every 5 years."
+      }
+    },
+    {
+      "country": "Mauritania",
+      "region": "Africa",
+      "composite_score": 3.95,
+      "need_score": 0.0,
+      "capability_score": 7.0,
+      "willingness_score": 3,
+      "suitability": "LOW - Limited Need",
+      "need_components": [],
+      "capability_components": [
+        "blockers:1",
+        "biometric_explored"
+      ],
+      "willingness_components": [
+        "followup_maybe",
+        "tech_explored:2"
+      ],
+      "scale": {
+        "temp_workers_count": "20000",
+        "elections_annually": "3 for 5 years"
+      }
+    },
+    {
+      "country": "Bangladesh",
+      "region": "Asia-Pacific",
+      "composite_score": 3.92,
+      "need_score": 0.0,
+      "capability_score": 5.5,
+      "willingness_score": 4,
+      "suitability": "LOW - Limited Need",
+      "need_components": [],
+      "capability_components": [
+        "blockers:1",
+        "biometric_explored"
+      ],
+      "willingness_components": [
+        "followup_yes",
+        "tech_explored:3"
+      ],
+      "scale": {
+        "temp_workers_count": "100",
+        "elections_annually": "10"
+      }
+    },
+    {
+      "country": "Ethiopia",
+      "region": "Africa",
+      "composite_score": 3.9,
+      "need_score": 2.5,
+      "capability_score": 4.0,
+      "willingness_score": 3,
+      "suitability": "LOW",
+      "need_components": [
+        "challenges:2",
+        "training_freq:3"
+      ],
+      "capability_components": [
+        "blockers:1"
+      ],
+      "willingness_components": [
+        "followup_maybe",
+        "tech_explored:1"
+      ],
+      "scale": {
+        "temp_workers_count": "More than 250",
+        "elections_annually": "It depends on the occurring re election, referendums and local electios. However general elections are being done every 5 years."
+      }
+    },
+    {
+      "country": "Vanuatu",
+      "region": "Asia-Pacific",
+      "composite_score": 3.55,
+      "need_score": 2.5,
+      "capability_score": 3.0,
+      "willingness_score": 3,
+      "suitability": "LOW",
+      "need_components": [
+        "challenges:1",
+        "training_freq:4",
+        "low_train_conf:3"
+      ],
+      "capability_components": [
+        "blockers:1"
+      ],
+      "willingness_components": [
+        "followup_yes"
+      ],
+      "scale": {
+        "temp_workers_count": "700 to 1500",
+        "elections_annually": "1 - 2 elections"
+      }
+    },
+    {
+      "country": "United States",
+      "region": "Americas",
+      "composite_score": 3.55,
+      "need_score": 1.5,
+      "capability_score": 7.0,
+      "willingness_score": 1,
+      "suitability": "LOW - Limited Need",
+      "need_components": [
+        "fraud_incidents:1.0",
+        "challenges:1"
+      ],
+      "capability_components": [],
+      "willingness_components": [
+        "tech_explored:2"
+      ],
+      "scale": {
+        "temp_workers_count": "750000",
+        "elections_annually": "0"
+      }
+    },
+    {
+      "country": "Taiwan",
+      "region": "Asia-Pacific",
+      "composite_score": 3.01,
+      "need_score": 0.0,
+      "capability_score": 7.17,
+      "willingness_score": 1,
+      "suitability": "LOW - Limited Need",
+      "need_components": [],
+      "capability_components": [
+        "biometric_explored"
+      ],
+      "willingness_components": [
+        "tech_explored:2"
+      ],
+      "scale": {
+        "temp_workers_count": "230000-300000",
+        "elections_annually": "Taiwan holds nationwide elections approximately every two years and conducts by-elections for public office, recall elections, and nationwide referenda on an as-needed basis."
+      }
+    },
+    {
+      "country": "Antigua & Barbuda",
+      "region": "Americas",
+      "composite_score": 2.9,
+      "need_score": 0.0,
+      "capability_score": 4.0,
+      "willingness_score": 3,
+      "suitability": "LOW - Limited Need",
+      "need_components": [],
+      "capability_components": [
+        "blockers:1",
+        "blockchain_explored"
+      ],
+      "willingness_components": [
+        "followup_maybe",
+        "tech_explored:1"
+      ],
+      "scale": {
+        "temp_workers_count": "90",
+        "elections_annually": "General Elections are held every 5 years and local government every 2 years on the sister isle "
+      }
+    },
+    {
+      "country": "Pakistan",
+      "region": "Asia-Pacific",
+      "composite_score": 2.62,
+      "need_score": 0.5,
+      "capability_score": 5.5,
+      "willingness_score": 1,
+      "suitability": "LOW - Limited Need",
+      "need_components": [
+        "challenges:1"
+      ],
+      "capability_components": [
+        "blockers:1",
+        "biometric_explored"
+      ],
+      "willingness_components": [
+        "tech_explored:5"
+      ],
+      "scale": {
+        "temp_workers_count": "one million ",
+        "elections_annually": "Depends upon the number of vaccines occurring due to death/ resignation etc.  In the current year 8 bye elections to National Assemblies and 9 bye elections to Provincial Assemblies have been held."
+      }
+    },
+    {
+      "country": "Antigua & Barbuda",
+      "region": "Americas",
+      "composite_score": 2.1,
+      "need_score": 0.0,
+      "capability_score": 6.0,
+      "willingness_score": 0,
+      "suitability": "LOW - Limited Need",
+      "need_components": [],
+      "capability_components": [],
+      "willingness_components": [],
+      "scale": {
+        "temp_workers_count": "Won't be able to answer that",
+        "elections_annually": "Elections are held very five years"
+      }
+    }
+  ],
+  "high_potential": [
+    {
+      "country": "Suriname",
+      "region": "Americas",
+      "composite_score": 5.92,
+      "need_score": 5.0,
+      "capability_score": 5.5,
+      "willingness_score": 4,
+      "suitability": "HIGH",
+      "need_components": [
+        "fraud_incidents:2.0",
+        "verification_hours:2.0",
+        "challenges:3",
+        "training_freq:2"
+      ],
+      "capability_components": [
+        "blockers:1",
+        "biometric_explored"
+      ],
+      "willingness_components": [
+        "followup_yes",
+        "tech_explored:2"
+      ],
+      "scale": {
+        "temp_workers_count": "8.450",
+        "elections_annually": "3 elections each 5 years term"
+      }
+    }
+  ],
+  "medium_potential": [
+    {
+      "country": "Nigeria",
+      "region": "Africa",
+      "composite_score": 6.22,
+      "need_score": 4.0,
+      "capability_score": 7.5,
+      "willingness_score": 4,
+      "suitability": "MEDIUM",
+      "need_components": [
+        "fraud_incidents:4.0",
+        "challenges:2"
+      ],
+      "capability_components": [
+        "biometric_explored"
+      ],
+      "willingness_components": [
+        "followup_yes",
+        "tech_explored:2"
+      ],
+      "scale": {
+        "temp_workers_count": "1,500,000 for General Election",
+        "elections_annually": "At least not less than 10"
+      }
+    },
+    {
+      "country": "Lesotho",
+      "region": "Africa",
+      "composite_score": 4.8,
+      "need_score": 3.0,
+      "capability_score": 6.0,
+      "willingness_score": 3,
+      "suitability": "MEDIUM",
+      "need_components": [
+        "verification_hours:3.0",
+        "challenges:3",
+        "low_train_conf:3"
+      ],
+      "capability_components": [],
+      "willingness_components": [
+        "followup_yes"
+      ],
+      "scale": {
+        "temp_workers_count": "94 500",
+        "elections_annually": null
+      }
+    }
+  ],
+  "low_potential": [
+    {
+      "country": "Armenia",
+      "region": "Europe",
+      "composite_score": 5.45,
+      "need_score": 2.5,
+      "capability_score": 7.0,
+      "willingness_score": 4,
+      "suitability": "LOW",
+      "need_components": [
+        "fraud_incidents:1.0",
+        "verification_hours:2.0",
+        "challenges:2"
+      ],
+      "capability_components": [],
+      "willingness_components": [
+        "followup_yes",
+        "tech_explored:3"
+      ],
+      "scale": {
+        "temp_workers_count": "250",
+        "elections_annually": "2"
+      }
+    },
+    {
+      "country": "Sierra Leone",
+      "region": "Africa",
+      "composite_score": 5.42,
+      "need_score": 5.5,
+      "capability_score": 3.5,
+      "willingness_score": 4,
+      "suitability": "LOW",
+      "need_components": [
+        "fraud_incidents:4.0",
+        "verification_hours:2.0",
+        "challenges:2",
+        "training_freq:2"
+      ],
+      "capability_components": [
+        "blockers:1",
+        "biometric_explored"
+      ],
+      "willingness_components": [
+        "followup_yes",
+        "tech_explored:1"
+      ],
+      "scale": {
+        "temp_workers_count": "90,000",
+        "elections_annually": "4 elections per cycle"
+      }
+    },
+    {
+      "country": "Bhutan",
+      "region": "Asia-Pacific",
+      "composite_score": 5.07,
+      "need_score": 1.5,
+      "capability_score": 8.5,
+      "willingness_score": 3,
+      "suitability": "LOW - Limited Need",
+      "need_components": [
+        "verification_hours:4.0"
+      ],
+      "capability_components": [
+        "biometric_explored"
+      ],
+      "willingness_components": [
+        "followup_maybe",
+        "tech_explored:3"
+      ],
+      "scale": {
+        "temp_workers_count": "7000",
+        "elections_annually": "10 plus including byelection"
+      }
+    },
+    {
+      "country": "Uganda",
+      "region": "Africa",
+      "composite_score": 5.0,
+      "need_score": 6.0,
+      "capability_score": 6.0,
+      "willingness_score": 1,
+      "suitability": "LOW",
+      "need_components": [
+        "fraud_incidents:4.0",
+        "verification_hours:2.0",
+        "challenges:3",
+        "training_freq:2"
+      ],
+      "capability_components": [
+        "blockers:1",
+        "biometric_explored"
+      ],
+      "willingness_components": [
+        "tech_explored:1"
+      ],
+      "scale": {
+        "temp_workers_count": "50,000",
+        "elections_annually": "1-5"
+      }
+    },
+    {
+      "country": "Albania",
+      "region": "Europe",
+      "composite_score": 4.82,
+      "need_score": 0.0,
+      "capability_score": 9.5,
+      "willingness_score": 3,
+      "suitability": "LOW - Limited Need",
+      "need_components": [],
+      "capability_components": [
+        "biometric_explored"
+      ],
+      "willingness_components": [
+        "followup_maybe",
+        "tech_explored:2"
+      ],
+      "scale": {
+        "temp_workers_count": "350",
+        "elections_annually": "1-3"
+      }
+    },
+    {
+      "country": "Serbia",
+      "region": "Europe",
+      "composite_score": 4.75,
+      "need_score": 2.0,
+      "capability_score": 7.0,
+      "willingness_score": 3,
+      "suitability": "LOW",
+      "need_components": [
+        "fraud_incidents:1.0",
+        "verification_hours:2.0",
+        "challenges:1"
+      ],
+      "capability_components": [],
+      "willingness_components": [
+        "followup_maybe",
+        "tech_explored:1"
+      ],
+      "scale": {
+        "temp_workers_count": "up to 1000",
+        "elections_annually": "1"
+      }
+    },
+    {
+      "country": "Tanzania (Zanzibar)",
+      "region": "Africa",
+      "composite_score": 4.72,
+      "need_score": 1.5,
+      "capability_score": 7.5,
+      "willingness_score": 3,
+      "suitability": "LOW - Limited Need",
+      "need_components": [
+        "verification_hours:3.0",
+        "challenges:1"
+      ],
+      "capability_components": [
+        "blockers:1",
+        "biometric_explored"
+      ],
+      "willingness_components": [
+        "followup_maybe",
+        "tech_explored:1"
+      ],
+      "scale": {
+        "temp_workers_count": "12000",
+        "elections_annually": "3 Elections in % years"
+      }
+    },
+    {
+      "country": "Maldives",
+      "region": "Asia-Pacific",
+      "composite_score": 4.67,
+      "need_score": 1.0,
+      "capability_score": 6.5,
+      "willingness_score": 4,
+      "suitability": "LOW - Limited Need",
+      "need_components": [
+        "challenges:2"
+      ],
+      "capability_components": [
+        "biometric_explored"
+      ],
+      "willingness_components": [
+        "followup_yes",
+        "tech_explored:3"
+      ],
+      "scale": {
+        "temp_workers_count": "200-250 ",
+        "elections_annually": "3 elections in 5-year cycle, referendum and by-elections year round "
+      }
+    },
+    {
+      "country": "Lithuania",
+      "region": "Europe",
+      "composite_score": 4.65,
+      "need_score": 0.0,
+      "capability_score": 9.0,
+      "willingness_score": 3,
+      "suitability": "LOW - Limited Need",
+      "need_components": [],
+      "capability_components": [],
+      "willingness_components": [
+        "followup_maybe",
+        "tech_explored:2"
+      ],
+      "scale": {
+        "temp_workers_count": "About 15 000",
+        "elections_annually": "At least 1 annually."
+      }
+    },
+    {
+      "country": "Europe/Eurasia (Regional)",
+      "region": "Europe",
+      "composite_score": 4.62,
+      "need_score": 2.0,
+      "capability_score": 9.5,
+      "willingness_score": 1,
+      "suitability": "LOW",
+      "need_components": [
+        "fraud_incidents:1.0",
+        "verification_hours:2.0",
+        "challenges:1"
+      ],
+      "capability_components": [
+        "blockchain_explored",
+        "biometric_explored"
+      ],
+      "willingness_components": [
+        "tech_explored:3"
+      ],
+      "scale": {
+        "temp_workers_count": "60 000",
+        "elections_annually": "national elections are not happening annually - 3 elections per 4-5 year electoral cycle. "
+      }
+    },
+    {
+      "country": "Kenya",
+      "region": "Africa",
+      "composite_score": 4.53,
+      "need_score": 1.5,
+      "capability_score": 5.5,
+      "willingness_score": 4,
+      "suitability": "LOW - Limited Need",
+      "need_components": [
+        "challenges:2",
+        "low_train_conf:3"
+      ],
+      "capability_components": [
+        "blockers:1",
+        "biometric_explored"
+      ],
+      "willingness_components": [
+        "followup_yes",
+        "tech_explored:1"
+      ],
+      "scale": {
+        "temp_workers_count": "500000",
+        "elections_annually": "6 elections after every 5 years"
+      }
+    },
+    {
+      "country": "Sierra Leone",
+      "region": "Africa",
+      "composite_score": 4.53,
+      "need_score": 1.5,
+      "capability_score": 5.5,
+      "willingness_score": 4,
+      "suitability": "LOW - Limited Need",
+      "need_components": [
+        "training_freq:2",
+        "low_train_conf:3"
+      ],
+      "capability_components": [
+        "blockers:1",
+        "biometric_explored"
+      ],
+      "willingness_components": [
+        "followup_yes",
+        "tech_explored:2"
+      ],
+      "scale": {
+        "temp_workers_count": "100+",
+        "elections_annually": "At least 2"
+      }
+    },
+    {
+      "country": "Tanzania",
+      "region": "Africa",
+      "composite_score": 4.5,
+      "need_score": 0.5,
+      "capability_score": 8.0,
+      "willingness_score": 3,
+      "suitability": "LOW - Limited Need",
+      "need_components": [
+        "verification_hours:2.0"
+      ],
+      "capability_components": [
+        "blockers:1",
+        "biometric_explored"
+      ],
+      "willingness_components": [
+        "followup_maybe",
+        "tech_explored:2"
+      ],
+      "scale": {
+        "temp_workers_count": "150",
+        "elections_annually": null
+      }
+    },
+    {
+      "country": "Antigua & Barbuda",
+      "region": "Americas",
+      "composite_score": 4.47,
+      "need_score": 0.0,
+      "capability_score": 8.5,
+      "willingness_score": 3,
+      "suitability": "LOW - Limited Need",
+      "need_components": [],
+      "capability_components": [],
+      "willingness_components": [
+        "followup_maybe",
+        "tech_explored:2"
+      ],
+      "scale": {
+        "temp_workers_count": "Over 300",
+        "elections_annually": "No annual elections "
+      }
+    },
+    {
+      "country": "Nigeria",
+      "region": "Africa",
+      "composite_score": 4.42,
+      "need_score": 3.0,
+      "capability_score": 3.5,
+      "willingness_score": 4,
+      "suitability": "LOW",
+      "need_components": [
+        "verification_hours:3.0",
+        "challenges:1",
+        "training_freq:2",
+        "low_train_conf:3"
+      ],
+      "capability_components": [
+        "blockers:1",
+        "biometric_explored"
+      ],
+      "willingness_components": [
+        "followup_yes",
+        "tech_explored:4"
+      ],
+      "scale": {
+        "temp_workers_count": "over 1000",
+        "elections_annually": "5"
+      }
+    },
+    {
+      "country": "Lesotho",
+      "region": "Africa",
+      "composite_score": 4.4,
+      "need_score": 2.0,
+      "capability_score": 6.0,
+      "willingness_score": 3,
+      "suitability": "LOW",
+      "need_components": [
+        "challenges:2",
+        "training_freq:2"
+      ],
+      "capability_components": [],
+      "willingness_components": [
+        "followup_maybe",
+        "tech_explored:2"
+      ],
+      "scale": {
+        "temp_workers_count": "30 000 Temporary workers ",
+        "elections_annually": "Local Government Election (after 5 years) same with National Assembly Elections. "
+      }
+    },
+    {
+      "country": "Somaliland",
+      "region": "Africa",
+      "composite_score": 4.29,
+      "need_score": 3.5,
+      "capability_score": 6.83,
+      "willingness_score": 1,
+      "suitability": "LOW",
+      "need_components": [
+        "fraud_incidents:1.0",
+        "verification_hours:3.0",
+        "challenges:3"
+      ],
+      "capability_components": [
+        "blockers:1",
+        "biometric_explored"
+      ],
+      "willingness_components": [
+        "tech_explored:2"
+      ],
+      "scale": {
+        "temp_workers_count": "4,000",
+        "elections_annually": "1, every two years "
+      }
+    },
+    {
+      "country": "India",
+      "region": "Asia-Pacific",
+      "composite_score": 4.15,
+      "need_score": 0.5,
+      "capability_score": 7.0,
+      "willingness_score": 3,
+      "suitability": "LOW - Limited Need",
+      "need_components": [
+        "verification_hours:2.0"
+      ],
+      "capability_components": [],
+      "willingness_components": [
+        "followup_maybe",
+        "tech_explored:2"
+      ],
+      "scale": {
+        "temp_workers_count": null,
+        "elections_annually": "Varies"
+      }
+    },
+    {
+      "country": "Botswana",
+      "region": "Africa",
+      "composite_score": 4.12,
+      "need_score": 0.0,
+      "capability_score": 7.5,
+      "willingness_score": 3,
+      "suitability": "LOW - Limited Need",
+      "need_components": [],
+      "capability_components": [
+        "blockers:1"
+      ],
+      "willingness_components": [
+        "followup_yes"
+      ],
+      "scale": {
+        "temp_workers_count": "About 44,000",
+        "elections_annually": "Sometimes none annually. However, there may be instances where we have 1 or 2 by-elections. Otherwise elections are held in Botswana after every 5 years."
+      }
+    },
+    {
+      "country": "Mauritania",
+      "region": "Africa",
+      "composite_score": 3.95,
+      "need_score": 0.0,
+      "capability_score": 7.0,
+      "willingness_score": 3,
+      "suitability": "LOW - Limited Need",
+      "need_components": [],
+      "capability_components": [
+        "blockers:1",
+        "biometric_explored"
+      ],
+      "willingness_components": [
+        "followup_maybe",
+        "tech_explored:2"
+      ],
+      "scale": {
+        "temp_workers_count": "20000",
+        "elections_annually": "3 for 5 years"
+      }
+    },
+    {
+      "country": "Bangladesh",
+      "region": "Asia-Pacific",
+      "composite_score": 3.92,
+      "need_score": 0.0,
+      "capability_score": 5.5,
+      "willingness_score": 4,
+      "suitability": "LOW - Limited Need",
+      "need_components": [],
+      "capability_components": [
+        "blockers:1",
+        "biometric_explored"
+      ],
+      "willingness_components": [
+        "followup_yes",
+        "tech_explored:3"
+      ],
+      "scale": {
+        "temp_workers_count": "100",
+        "elections_annually": "10"
+      }
+    },
+    {
+      "country": "Ethiopia",
+      "region": "Africa",
+      "composite_score": 3.9,
+      "need_score": 2.5,
+      "capability_score": 4.0,
+      "willingness_score": 3,
+      "suitability": "LOW",
+      "need_components": [
+        "challenges:2",
+        "training_freq:3"
+      ],
+      "capability_components": [
+        "blockers:1"
+      ],
+      "willingness_components": [
+        "followup_maybe",
+        "tech_explored:1"
+      ],
+      "scale": {
+        "temp_workers_count": "More than 250",
+        "elections_annually": "It depends on the occurring re election, referendums and local electios. However general elections are being done every 5 years."
+      }
+    },
+    {
+      "country": "Vanuatu",
+      "region": "Asia-Pacific",
+      "composite_score": 3.55,
+      "need_score": 2.5,
+      "capability_score": 3.0,
+      "willingness_score": 3,
+      "suitability": "LOW",
+      "need_components": [
+        "challenges:1",
+        "training_freq:4",
+        "low_train_conf:3"
+      ],
+      "capability_components": [
+        "blockers:1"
+      ],
+      "willingness_components": [
+        "followup_yes"
+      ],
+      "scale": {
+        "temp_workers_count": "700 to 1500",
+        "elections_annually": "1 - 2 elections"
+      }
+    },
+    {
+      "country": "United States",
+      "region": "Americas",
+      "composite_score": 3.55,
+      "need_score": 1.5,
+      "capability_score": 7.0,
+      "willingness_score": 1,
+      "suitability": "LOW - Limited Need",
+      "need_components": [
+        "fraud_incidents:1.0",
+        "challenges:1"
+      ],
+      "capability_components": [],
+      "willingness_components": [
+        "tech_explored:2"
+      ],
+      "scale": {
+        "temp_workers_count": "750000",
+        "elections_annually": "0"
+      }
+    },
+    {
+      "country": "Taiwan",
+      "region": "Asia-Pacific",
+      "composite_score": 3.01,
+      "need_score": 0.0,
+      "capability_score": 7.17,
+      "willingness_score": 1,
+      "suitability": "LOW - Limited Need",
+      "need_components": [],
+      "capability_components": [
+        "biometric_explored"
+      ],
+      "willingness_components": [
+        "tech_explored:2"
+      ],
+      "scale": {
+        "temp_workers_count": "230000-300000",
+        "elections_annually": "Taiwan holds nationwide elections approximately every two years and conducts by-elections for public office, recall elections, and nationwide referenda on an as-needed basis."
+      }
+    },
+    {
+      "country": "Antigua & Barbuda",
+      "region": "Americas",
+      "composite_score": 2.9,
+      "need_score": 0.0,
+      "capability_score": 4.0,
+      "willingness_score": 3,
+      "suitability": "LOW - Limited Need",
+      "need_components": [],
+      "capability_components": [
+        "blockers:1",
+        "blockchain_explored"
+      ],
+      "willingness_components": [
+        "followup_maybe",
+        "tech_explored:1"
+      ],
+      "scale": {
+        "temp_workers_count": "90",
+        "elections_annually": "General Elections are held every 5 years and local government every 2 years on the sister isle "
+      }
+    },
+    {
+      "country": "Pakistan",
+      "region": "Asia-Pacific",
+      "composite_score": 2.62,
+      "need_score": 0.5,
+      "capability_score": 5.5,
+      "willingness_score": 1,
+      "suitability": "LOW - Limited Need",
+      "need_components": [
+        "challenges:1"
+      ],
+      "capability_components": [
+        "blockers:1",
+        "biometric_explored"
+      ],
+      "willingness_components": [
+        "tech_explored:5"
+      ],
+      "scale": {
+        "temp_workers_count": "one million ",
+        "elections_annually": "Depends upon the number of vaccines occurring due to death/ resignation etc.  In the current year 8 bye elections to National Assemblies and 9 bye elections to Provincial Assemblies have been held."
+      }
+    },
+    {
+      "country": "Antigua & Barbuda",
+      "region": "Americas",
+      "composite_score": 2.1,
+      "need_score": 0.0,
+      "capability_score": 6.0,
+      "willingness_score": 0,
+      "suitability": "LOW - Limited Need",
+      "need_components": [],
+      "capability_components": [],
+      "willingness_components": [],
+      "scale": {
+        "temp_workers_count": "Won't be able to answer that",
+        "elections_annually": "Elections are held very five years"
+      }
+    }
+  ],
+  "summary": {
+    "total_assessed": 31,
+    "high_potential_count": 1,
+    "medium_potential_count": 2,
+    "low_potential_count": 28,
+    "top_5_candidates": [
+      {
+        "country": "Nigeria",
+        "region": "Africa",
+        "composite_score": 6.22,
+        "suitability": "MEDIUM"
+      },
+      {
+        "country": "Suriname",
+        "region": "Americas",
+        "composite_score": 5.92,
+        "suitability": "HIGH"
+      },
+      {
+        "country": "Armenia",
+        "region": "Europe",
+        "composite_score": 5.45,
+        "suitability": "LOW"
+      },
+      {
+        "country": "Sierra Leone",
+        "region": "Africa",
+        "composite_score": 5.42,
+        "suitability": "LOW"
+      },
+      {
+        "country": "Bhutan",
+        "region": "Asia-Pacific",
+        "composite_score": 5.07,
+        "suitability": "LOW - Limited Need"
+      }
+    ]
+  },
+  "scoring_methodology": {
+    "need_score": "Pain points in blockchain-addressable areas (credential verification, training records, worker tracking). Scale 0-10.",
+    "capability_score": "Infrastructure readiness based on tech levels and limitations. Scale 0-10.",
+    "willingness_score": "Interest indicators (follow-up, tech exploration, worker interest). Scale 0-5.",
+    "composite_formula": "(Need * 0.4) + (Capability * 0.35) + (Willingness_normalized * 0.25)",
+    "suitability_criteria": {
+      "HIGH": "Need >= 5, Capability >= 5, Willingness >= 3",
+      "MEDIUM": "Need >= 3, Capability >= 4, Willingness >= 2",
+      "LOW": "Does not meet MEDIUM criteria or has blocking infrastructure issues"
+    }
+  }
+}

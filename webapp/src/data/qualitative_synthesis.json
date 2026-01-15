@@ -1,0 +1,82 @@
+{
+  "priority_themes": {
+    "technology_digitalization": 32,
+    "training_capacity": 6,
+    "voter_registration": 5,
+    "funding_resources": 1,
+    "transparency_trust": 4,
+    "security_integrity": 5,
+    "accessibility_inclusion": 3,
+    "staff_recruitment": 3,
+    "other": 20
+  },
+  "concern_themes": {
+    "Resistance to change": 7,
+    "Trust/confidence issues": 4,
+    "Security concerns": 2,
+    "Infrastructure gaps": 1,
+    "Political/stakeholder buy-in": 3,
+    "Skills/training gaps": 7,
+    "Funding/cost concerns": 2
+  },
+  "change_themes": {
+    "Technology adoption": 7,
+    "Transparency": 9,
+    "Results management": 8,
+    "Training/capacity": 4,
+    "Building trust": 3
+  },
+  "compelling_quotes": [
+    {
+      "country": "Pakistan",
+      "category": "Implementation Concern",
+      "quote": "resistance to change and inconsistent use of new systems."
+    },
+    {
+      "country": "Pakistan",
+      "category": "Tech Adoption Barrier",
+      "quote": "Weak last-mile infrastructure and digital literacy and skills gap among election officials leading to low confidence, resistance to change and inconsistent use of new systems."
+    },
+    {
+      "country": "TAIWAN",
+      "category": "Vision for Change",
+      "quote": "Information technology is used to support manual ballot-counting operations in order to prevent clerical errors or omissions in polling and ballot-counting station reports and to enhance the accuracy of vote-counting results at polling stations."
+    },
+    {
+      "country": "TAIWAN",
+      "category": "Tech Adoption Barrier",
+      "quote": "Taiwanese society broadly recognizes that traditional paper-based voting and the public announcement of each ballot during the counting process are more effective in ensuring electoral integrity and fairness."
+    },
+    {
+      "country": "Kenya",
+      "category": "Implementation Concern",
+      "quote": "1.Inadequate infrastructure support  2.Capacity building  3.Building trust in the systems"
+    },
+    {
+      "country": "Somaliland ",
+      "category": "Vision for Change",
+      "quote": "More resources to recruit and retain technical staff and provide them with the latest technology to support their work"
+    },
+    {
+      "country": "Lesotho",
+      "category": "Tech Adoption Barrier",
+      "quote": "political buy inn. Literacy of some political parties is low such that trust on newly introduced systems is hard to have."
+    },
+    {
+      "country": "Albania",
+      "category": "Vision for Change",
+      "quote": "Radical, real-time transparency of the entire results and complaints process"
+    },
+    {
+      "country": "Suriname",
+      "category": "Vision for Change",
+      "quote": "Real-time counting or registering of the results per polling station."
+    },
+    {
+      "country": "Mauritanie ",
+      "category": "Implementation Concern",
+      "quote": "Update and design following changes in the electoral law staff training"
+    }
+  ],
+  "total_responses_analyzed": 29
+}

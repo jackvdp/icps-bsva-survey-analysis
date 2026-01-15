@@ -1,0 +1,334 @@
+{
+  "segments": {
+    "advanced": {
+      "min": 7,
+      "max": 10,
+      "respondents": [
+        {
+          "country": "Tanzania",
+          "region": "Africa",
+          "score": 7.5,
+          "tech_recruitment": 2.0,
+          "tech_training": 2.0,
+          "followup_willing": "Contact me with more information"
+        },
+        {
+          "country": "Albania",
+          "region": "Europe",
+          "score": 9.0,
+          "tech_recruitment": 3.0,
+          "tech_training": 3.0,
+          "followup_willing": "Contact me with more information"
+        },
+        {
+          "country": "Serbia",
+          "region": "Europe",
+          "score": 7.0,
+          "tech_recruitment": 2.0,
+          "tech_training": 2.0,
+          "followup_willing": "Contact me with more information"
+        },
+        {
+          "country": "Botswana",
+          "region": "Africa",
+          "score": 7.5,
+          "tech_recruitment": 2.0,
+          "tech_training": 2.0,
+          "followup_willing": "Yes"
+        },
+        {
+          "country": "Europe/Eurasia (Regional)",
+          "region": "Europe",
+          "score": 8.0,
+          "tech_recruitment": null,
+          "tech_training": 2.0,
+          "followup_willing": "No"
+        },
+        {
+          "country": "Tanzania (Zanzibar)",
+          "region": "Africa",
+          "score": 7.0,
+          "tech_recruitment": 2.0,
+          "tech_training": null,
+          "followup_willing": "Contact me with more information"
+        },
+        {
+          "country": "Bhutan",
+          "region": "Asia-Pacific",
+          "score": 8.0,
+          "tech_recruitment": 2.0,
+          "tech_training": 2.0,
+          "followup_willing": "Contact me with more information"
+        },
+        {
+          "country": "Armenia",
+          "region": "Europe",
+          "score": 7.0,
+          "tech_recruitment": 2.0,
+          "tech_training": 2.0,
+          "followup_willing": "Yes"
+        },
+        {
+          "country": "Nigeria",
+          "region": "Africa",
+          "score": 7.0,
+          "tech_recruitment": 3.0,
+          "tech_training": 1.0,
+          "followup_willing": "Yes"
+        },
+        {
+          "country": "United States",
+          "region": "Americas",
+          "score": 7.0,
+          "tech_recruitment": 2.0,
+          "tech_training": 3.0,
+          "followup_willing": "No"
+        },
+        {
+          "country": "Antigua & Barbuda",
+          "region": "Americas",
+          "score": 8.5,
+          "tech_recruitment": 2.0,
+          "tech_training": 2.0,
+          "followup_willing": "Contact me with more information"
+        },
+        {
+          "country": "India",
+          "region": "Asia-Pacific",
+          "score": 7.0,
+          "tech_recruitment": 2.0,
+          "tech_training": 2.0,
+          "followup_willing": "Contact me with more information"
+        },
+        {
+          "country": "Lithuania",
+          "region": "Europe",
+          "score": 9.0,
+          "tech_recruitment": 3.0,
+          "tech_training": 3.0,
+          "followup_willing": "Contact me with more information"
+        }
+      ],
+      "count": 13,
+      "avg_score": 7.65,
+      "countries": [
+        "Serbia",
+        "Nigeria",
+        "Europe/Eurasia (Regional)",
+        "Albania",
+        "Tanzania (Zanzibar)",
+        "United States",
+        "Antigua & Barbuda",
+        "India",
+        "Tanzania",
+        "Lithuania",
+        "Armenia",
+        "Botswana",
+        "Bhutan"
+      ],
+      "regions": {
+        "Europe": "5",
+        "Africa": "4",
+        "Asia-Pacific": "2",
+        "Americas": "2"
+      }
+    },
+    "moderate": {
+      "min": 4,
+      "max": 7,
+      "respondents": [
+        {
+          "country": "Pakistan",
+          "region": "Asia-Pacific",
+          "score": 5.0,
+          "tech_recruitment": 2.0,
+          "tech_training": 2.0,
+          "followup_willing": null
+        },
+        {
+          "country": "Maldives",
+          "region": "Asia-Pacific",
+          "score": 6.0,
+          "tech_recruitment": null,
+          "tech_training": null,
+          "followup_willing": "Yes"
+        },
+        {
+          "country": "Taiwan",
+          "region": "Asia-Pacific",
+          "score": 6.67,
+          "tech_recruitment": null,
+          "tech_training": 1.0,
+          "followup_willing": "No"
+        },
+        {
+          "country": "Kenya",
+          "region": "Africa",
+          "score": 5.0,
+          "tech_recruitment": null,
+          "tech_training": 2.0,
+          "followup_willing": "Yes"
+        },
+        {
+          "country": "Uganda",
+          "region": "Africa",
+          "score": 5.5,
+          "tech_recruitment": 2.0,
+          "tech_training": 2.0,
+          "followup_willing": "No"
+        },
+        {
+          "country": "Somaliland",
+          "region": "Africa",
+          "score": 6.33,
+          "tech_recruitment": 3.0,
+          "tech_training": null,
+          "followup_willing": "No"
+        },
+        {
+          "country": "Lesotho",
+          "region": "Africa",
+          "score": 6.0,
+          "tech_recruitment": null,
+          "tech_training": 1.0,
+          "followup_willing": "Yes"
+        },
+        {
+          "country": "Suriname",
+          "region": "Americas",
+          "score": 5.0,
+          "tech_recruitment": 2.0,
+          "tech_training": 1.0,
+          "followup_willing": "Yes"
+        },
+        {
+          "country": "Mauritania",
+          "region": "Africa",
+          "score": 6.5,
+          "tech_recruitment": 3.0,
+          "tech_training": 2.0,
+          "followup_willing": "Contact me with more information"
+        },
+        {
+          "country": "Sierra Leone",
+          "region": "Africa",
+          "score": 5.0,
+          "tech_recruitment": null,
+          "tech_training": 2.0,
+          "followup_willing": "Yes"
+        },
+        {
+          "country": "Antigua & Barbuda",
+          "region": "Americas",
+          "score": 6.0,
+          "tech_recruitment": null,
+          "tech_training": 1.0,
+          "followup_willing": "No"
+        },
+        {
+          "country": "Bangladesh",
+          "region": "Asia-Pacific",
+          "score": 5.0,
+          "tech_recruitment": 2.0,
+          "tech_training": 2.0,
+          "followup_willing": "Yes"
+        },
+        {
+          "country": "Ethiopia",
+          "region": "Africa",
+          "score": 4.0,
+          "tech_recruitment": null,
+          "tech_training": null,
+          "followup_willing": "Contact me with more information"
+        },
+        {
+          "country": "Lesotho",
+          "region": "Africa",
+          "score": 6.0,
+          "tech_recruitment": 2.0,
+          "tech_training": 2.0,
+          "followup_willing": "Contact me with more information"
+        }
+      ],
+      "count": 14,
+      "avg_score": 5.57,
+      "countries": [
+        "Suriname",
+        "Uganda",
+        "Taiwan",
+        "Somaliland",
+        "Mauritania",
+        "Ethiopia",
+        "Antigua & Barbuda",
+        "Bangladesh",
+        "Maldives",
+        "Pakistan",
+        "Lesotho",
+        "Sierra Leone",
+        "Kenya"
+      ],
+      "regions": {
+        "Africa": "8",
+        "Asia-Pacific": "4",
+        "Americas": "2"
+      }
+    },
+    "basic": {
+      "min": 0,
+      "max": 4,
+      "respondents": [
+        {
+          "country": "Vanuatu",
+          "region": "Asia-Pacific",
+          "score": 3.0,
+          "tech_recruitment": null,
+          "tech_training": 1.0,
+          "followup_willing": "Yes"
+        },
+        {
+          "country": "Antigua & Barbuda",
+          "region": "Americas",
+          "score": 3.0,
+          "tech_recruitment": null,
+          "tech_training": 1.0,
+          "followup_willing": "Contact me with more information"
+        },
+        {
+          "country": "Sierra Leone",
+          "region": "Africa",
+          "score": 3.0,
+          "tech_recruitment": null,
+          "tech_training": 1.0,
+          "followup_willing": "Yes"
+        },
+        {
+          "country": "Nigeria",
+          "region": "Africa",
+          "score": 3.0,
+          "tech_recruitment": null,
+          "tech_training": 1.0,
+          "followup_willing": "Yes"
+        }
+      ],
+      "count": 4,
+      "avg_score": 3.0,
+      "countries": [
+        "Antigua & Barbuda",
+        "Sierra Leone",
+        "Vanuatu",
+        "Nigeria"
+      ],
+      "regions": {
+        "Africa": "2",
+        "Asia-Pacific": "1",
+        "Americas": "1"
+      }
+    }
+  },
+  "score_distribution": {
+    "mean": 6.14,
+    "median": 6.42,
+    "min": 3.0,
+    "max": 9.0
+  }
+}

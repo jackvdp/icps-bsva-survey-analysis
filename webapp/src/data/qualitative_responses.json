@@ -1,0 +1,256 @@
+[
+  {
+    "country": "Pakistan",
+    "priority_1": "enhancement of women participation in electoral process",
+    "priority_2": "use of technology/AI for monitoring & countering mis/dis information",
+    "priority_3": "electoral reforms and adoption of best international practices.",
+    "documentation_challenges": "Minor challenges which were resolved through updation of softwares.",
+    "tech_adoption_barriers": "Weak last-mile infrastructure and digital literacy and skills gap among election officials leading to low confidence, resistance to change and inconsistent use of new systems.",
+    "implementation_concerns": "resistance to change and inconsistent use of new systems.",
+    "single_change": "adoption of best international practices and embracing latest technological advancement in electoral affairs."
+  },
+  {
+    "country": "Maldives ",
+    "priority_1": "Digitalization of operational platforms",
+    "priority_2": "Voter Education and awareness",
+    "priority_3": "Digitalization of official recruitments",
+    "documentation_challenges": "Manually handling the documentation processes",
+    "tech_adoption_barriers": "Budget constraints,   Public confidence",
+    "implementation_concerns": "Public Confidence",
+    "single_change": "Transparency and more awareness campaigns"
+  },
+  {
+    "country": "TAIWAN",
+    "priority_1": "Combating election-related disinformation and misinformation to safeguard electoral integrity and fairness.",
+    "priority_2": "Enhancing measures to protect and promote the voting rights of persons with disabilities, women, older persons, and Indigenous peoples.",
+    "priority_3": "Improving and upgrading polling and ballot-counting station equipment and materials, such as privacy screens for ballot marking.",
+    "documentation_challenges": "Following the completion of ballot counting, certain clerical errors or omissions in the recorded vote figures on the polling and ballot-counting station reports were identified and subsequently corrected. These post-count corrections did not affect the election results.",
+    "tech_adoption_barriers": "Taiwanese society broadly recognizes that traditional paper-based voting and the public announcement of each ballot during the counting process are more effective in ensuring electoral integrity and fairness.",
+    "implementation_concerns": "Concerns regarding information security and whether the electoral process is conducted in an open and transparent manner.",
+    "single_change": "Information technology is used to support manual ballot-counting operations in order to prevent clerical errors or omissions in polling and ballot-counting station reports and to enhance the accuracy of vote-counting results at polling stations."
+  },
+  {
+    "country": "Kenya",
+    "priority_1": "Infra support",
+    "priority_2": "Capacity building and creation of awareness",
+    "priority_3": "Leverage new technologies",
+    "documentation_challenges": "Audit Preparedness",
+    "tech_adoption_barriers": "Infrastructure challenges",
+    "implementation_concerns": "1.Inadequate infrastructure support  2.Capacity building  3.Building trust in the systems",
+    "single_change": "Go online on all processes  Train, train ,train"
+  },
+  {
+    "country": "UGANDA",
+    "priority_1": "USE OF BIOMETRIC VOTER VERIFICATION",
+    "priority_2": "ELECTRONIC VOTING",
+    "priority_3": "AUTOMATED PROCESSES",
+    "implementation_concerns": "SLOW ADOPTION OF DIGITAL TRANSFORMATION"
+  },
+  {
+    "country": "Tanzania",
+    "priority_1": "voter registration",
+    "priority_2": "candidates registration"
+  },
+  {
+    "country": "Somaliland ",
+    "priority_1": "Training software that would streamline our training",
+    "priority_2": "Tracking and verification system for temperature staff",
+    "priority_3": "Funding to deliver the systems that we require",
+    "implementation_concerns": "Buy-in from the political leaders",
+    "single_change": "More resources to recruit and retain technical staff and provide them with the latest technology to support their work"
+  },
+  {
+    "country": "Lesotho",
+    "priority_1": "Constituency boundary review",
+    "priority_2": "Intensify Civic education",
+    "priority_3": "Diaspora voter registration and voting",
+    "tech_adoption_barriers": "political buy inn. Literacy of some political parties is low such that trust on newly introduced systems is hard to have.",
+    "implementation_concerns": "some technologies may not be relevant in solving our problems.",
+    "single_change": "Improved transparency for better social engagement."
+  },
+  {
+    "country": "Albania",
+    "priority_1": "More effective Implementation of Out-of-Country Voting",
+    "priority_2": "Strengthening Electoral Administration Capacity and Consistency",
+    "priority_3": "Transparency, Oversight, and Integrity Safeguards",
+    "tech_adoption_barriers": "Computer Literacy",
+    "implementation_concerns": "Effective use and literacy among users",
+    "single_change": "Radical, real-time transparency of the entire results and complaints process"
+  },
+  {
+    "country": "Suriname",
+    "priority_1": "Good database for polling staff",
+    "priority_2": "Good database for electoral observers",
+    "priority_3": "Up to date dashboard with electoral results",
+    "documentation_challenges": "Several versions (Version Management) was a great challenge.",
+    "tech_adoption_barriers": "Trust in technology",
+    "implementation_concerns": "Acceptance by political parties and public and the reliability of the systems.",
+    "single_change": "Real-time counting or registering of the results per polling station."
+  },
+  {
+    "country": "Mauritanie ",
+    "priority_1": "Électoral code",
+    "priority_2": "Électoral équipment",
+    "priority_3": "Recruitment and training of electoral personnel",
+    "documentation_challenges": "Electoral code availability",
+    "tech_adoption_barriers": "Technical level of staff and worker",
+    "implementation_concerns": "Update and design following changes in the electoral law staff training",
+    "single_change": "More permanent staff and post-electoral work"
+  },
+  {
+    "country": "Vanuatu",
+    "priority_1": "Use of technology in elections",
+    "priority_2": "use of electronic voting and other methods of voting apart from in-person voting",
+    "priority_3": "Proper recruitment and recording system for temporary electoral workers",
+    "documentation_challenges": "no recording system",
+    "tech_adoption_barriers": "Infrastructure has to be in place, technical know-how and connectivity is a big issue",
+    "implementation_concerns": "new systems or technologies have to be tested to ensure they are feasible to use in Vanuatu",
+    "single_change": "to ensure all our electoral operations are transparent and trustworthy"
+  },
+  {
+    "country": "Sierra Leone",
+    "priority_1": "Credible voter registration and voter roll management",
+    "priority_2": "Efficient Logistics and Polling Operations",
+    "priority_3": "Transparent Result Management and Communication",
+    "documentation_challenges": "Sensitive and non-sensitive materials",
+    "tech_adoption_barriers": "Terrain  Perception-Trust issues",
+    "single_change": "People centered rather than political party's processes"
+  },
+  {
+    "country": "Botswana ",
+    "priority_1": "Installation of electronic voter registration systems",
+    "priority_2": "Enhancing security and safety of election materials",
+    "priority_3": "Robust stakeholder engagement",
+    "tech_adoption_barriers": "Stakeholders' resistance to the use of technologies in electoral management",
+    "implementation_concerns": "Stakeholders' resistance",
+    "single_change": "Use of electronic voter registration system to annihilate all challenges relating to accuracy of the voters' roll"
+  },
+  {
+    "country": "Europe and Eurasia region",
+    "priority_1": "combat disinformation, malign influence  and ensure information integrity, including via AI usage guideline for EMBs.",
+    "priority_2": "Increase cyber hygiene knowledge among workers",
+    "priority_3": "voter/civic education and increased electoral culture",
+    "documentation_challenges": "not filled out completely - missing some data.",
+    "tech_adoption_barriers": "lack of political consensus, limited knowledge and trust towards technologies.",
+    "implementation_concerns": "quick development of this field and AI",
+    "single_change": "More transparency"
+  },
+  {
+    "country": "Zanzibar",
+    "priority_1": "Evaluation   on Previus Elections",
+    "priority_2": "capacity Building for Electoral Staff",
+    "tech_adoption_barriers": "Costs to cope with new technology",
+    "implementation_concerns": "Registration system updating",
+    "single_change": "Political Trust"
+  },
+  {
+    "country": "Antigua & Barbuda",
+    "priority_1": "Counting of ballots",
+    "priority_2": "Results in a timely manner",
+    "priority_3": "Technology",
+    "implementation_concerns": "The willingness of the electors and politicians to accept the changes implemented",
+    "single_change": "To get the politicians to buy into the idea put forward"
+  },
+  {
+    "country": "Antigua ",
+    "documentation_challenges": "I think our documentation system is one of the best in the world. It goes through  great scrutiny so that we can have a free fair and a free from fear electoral, that's our mantra.",
+    "tech_adoption_barriers": "I have not attempted to, I'm not involved in the technical aspect of the organization. I really cant give comments on that aspect",
+    "implementation_concerns": "As I mentioned earlier I'm not an expert in that field, but I do think we need an update to a more modern way of doing things.",
+    "single_change": "I do believe there's s O me trust in the way our elections are conducted. One thing i think we could improve on is the way in which ballots are counted and how and the voting process which we still do manually."
+  },
+  {
+    "country": "Bangladesh",
+    "priority_1": "training",
+    "priority_2": "security",
+    "priority_3": "efficiency",
+    "implementation_concerns": "knowledge gap among the decision makers",
+    "single_change": "freedom to work professionally"
+  },
+  {
+    "country": "Bhutan",
+    "priority_1": "-",
+    "priority_2": "-",
+    "priority_3": "-",
+    "tech_adoption_barriers": "- not adequate knowledge on technology and illiteracy",
+    "implementation_concerns": "illiteracy and cyber security"
+  },
+  {
+    "country": "Sierra Leone",
+    "priority_1": "Timely recruitment and training of staff",
+    "priority_2": "Staff Records management",
+    "priority_3": "Use of Technology and Training in ICT Skills",
+    "documentation_challenges": "Missing Material Transfer Forms",
+    "tech_adoption_barriers": "dearth in ICT Skills",
+    "implementation_concerns": "Low knowledge in ICT and the lack of reliable power",
+    "single_change": "More transparency in the recruitment of permanent and temporary staff"
+  },
+  {
+    "country": "NIGERIA / AFRICA",
+    "priority_1": "Improved Training days",
+    "priority_2": "Provision of adequate equipment for training",
+    "priority_3": "Early  production of training resources",
+    "documentation_challenges": "Multiple registration before training",
+    "tech_adoption_barriers": "Limited equipment for training purposes, time constraints for Training of Trainers(ToT)",
+    "implementation_concerns": "Time to appreciate and understand the new system",
+    "single_change": "Reliable electoral result, outcome and real time display for public scrutiny"
+  },
+  {
+    "country": "Established Country legal system approximately ",
+    "priority_1": "Use of technology for voters registration and the same for individual & Party candidate",
+    "priority_2": "Stronger training data capturing mechanism",
+    "priority_3": "Strong training materials development for various operation related election works.",
+    "documentation_challenges": "Unable to sufficiently learn form previous elections due to inadequate documentation and  probem in using electronic data base system.",
+    "tech_adoption_barriers": "Public resistance on new technology   Low skills on the part of professionals who do not have knowledge on IT",
+    "implementation_concerns": "Staffs specially permanent staffs are optimistic to learn.",
+    "single_change": "Transparent and participatory engagement at all level with the  proper alignment with International and National standards & legal conditions ."
+  },
+  {
+    "country": "United States",
+    "priority_1": "trust",
+    "priority_2": "money",
+    "priority_3": "tech",
+    "tech_adoption_barriers": "change to something new"
+  },
+  {
+    "country": "Antigua 🇦🇬 and Barbuda",
+    "priority_1": "Increased voter turnout",
+    "priority_2": "More involvement of youth",
+    "priority_3": "Increased accessibility for physically challenged",
+    "documentation_challenges": "None I can think of",
+    "tech_adoption_barriers": "Our voting system is manual",
+    "implementation_concerns": "Reluctance of the powers that be to implement change",
+    "single_change": "Counting ballots in the polling stations where voting is done"
+  },
+  {
+    "country": "Karnataka",
+    "single_change": "Biometric identification of electors"
+  },
+  {
+    "country": "LESOTHO",
+    "priority_1": "Voter Registration System",
+    "priority_2": "Calculation of seats under Mixed Member PR system",
+    "priority_3": "Payment of Temporary Staff",
+    "documentation_challenges": "There had been a problem of calculating seat allocation in a Mixed Member Proportional System (MMP model)",
+    "implementation_concerns": "Funding to cover the systems",
+    "single_change": "Change to Systems that are Technologically enhanced"
+  },
+  {
+    "country": "Lithuania",
+    "priority_1": "Enhancing transparency and public communication",
+    "priority_2": "Strengthening digital security and system resilience",
+    "priority_3": "Improving training and coordination with local election administrators",
+    "documentation_challenges": "We had no challenges on this point.",
+    "tech_adoption_barriers": "The lock of budget.",
+    "implementation_concerns": "What concerns me most is ensuring that the new systems integrate smoothly with existing processes and that all team members receive adequate training to use them effectively.",
+    "single_change": "Increasing transparency at every stage of the electoral process would greatly enhance public trust and resilience. This includes clear communication about procedures, open data on results, and independent auditing. Providing more public education about how elections are conducted and how results are verified would strengthen confidence and reduce misinformation."
+  },
+  {
+    "country": "nigeria",
+    "priority_1": "security",
+    "priority_2": "budget",
+    "priority_3": "digitalisation",
+    "tech_adoption_barriers": "organisational structure",
+    "implementation_concerns": "Training   Digitalisation  funding",
+    "single_change": "Transparency  Online Digitalisation of results"
+  }
+]

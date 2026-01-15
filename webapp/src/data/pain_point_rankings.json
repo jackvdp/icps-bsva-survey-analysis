@@ -1,0 +1,722 @@
+{
+  "credential_verification": {
+    "scores": [
+      {
+        "country": "Uganda",
+        "score": 12.5
+      },
+      {
+        "country": "Sierra Leone",
+        "score": 12.5
+      },
+      {
+        "country": "Nigeria",
+        "score": 11.0
+      },
+      {
+        "country": "Suriname",
+        "score": 9.5
+      },
+      {
+        "country": "Somaliland",
+        "score": 8.0
+      },
+      {
+        "country": "Lesotho",
+        "score": 6.0
+      },
+      {
+        "country": "Europe/Eurasia (Regional)",
+        "score": 5.5
+      },
+      {
+        "country": "Armenia",
+        "score": 5.5
+      },
+      {
+        "country": "Serbia",
+        "score": 4.5
+      },
+      {
+        "country": "Bhutan",
+        "score": 4.5
+      },
+      {
+        "country": "Tanzania (Zanzibar)",
+        "score": 4.0
+      },
+      {
+        "country": "United States",
+        "score": 4.0
+      },
+      {
+        "country": "Nigeria",
+        "score": 4.0
+      },
+      {
+        "country": "Lesotho",
+        "score": 3.0
+      },
+      {
+        "country": "Maldives",
+        "score": 2.0
+      },
+      {
+        "country": "Kenya",
+        "score": 2.0
+      },
+      {
+        "country": "Vanuatu",
+        "score": 2.0
+      },
+      {
+        "country": "Ethiopia",
+        "score": 2.0
+      },
+      {
+        "country": "Tanzania",
+        "score": 1.5
+      },
+      {
+        "country": "India",
+        "score": 1.5
+      },
+      {
+        "country": "Pakistan",
+        "score": 1.0
+      },
+      {
+        "country": null,
+        "score": 1.0
+      },
+      {
+        "country": "Albania",
+        "score": 1.0
+      },
+      {
+        "country": null,
+        "score": 1.0
+      },
+      {
+        "country": "Sierra Leone",
+        "score": 1.0
+      },
+      {
+        "country": null,
+        "score": 1.0
+      },
+      {
+        "country": "Taiwan",
+        "score": 0.0
+      },
+      {
+        "country": "Mauritania",
+        "score": 0.0
+      },
+      {
+        "country": "Botswana",
+        "score": 0.0
+      },
+      {
+        "country": "Antigua & Barbuda",
+        "score": 0.0
+      },
+      {
+        "country": "Antigua & Barbuda",
+        "score": 0
+      },
+      {
+        "country": "Bangladesh",
+        "score": 0.0
+      },
+      {
+        "country": "Antigua & Barbuda",
+        "score": 0.0
+      },
+      {
+        "country": "Lithuania",
+        "score": 0.0
+      }
+    ],
+    "avg_score": 3.28,
+    "max_score": 12.5
+  },
+  "temporary_workforce": {
+    "scores": [
+      {
+        "country": "Antigua & Barbuda",
+        "score": 62.5
+      },
+      {
+        "country": "Taiwan",
+        "score": 12.0
+      },
+      {
+        "country": "Sierra Leone",
+        "score": 12.0
+      },
+      {
+        "country": "Ethiopia",
+        "score": 12.0
+      },
+      {
+        "country": "Lesotho",
+        "score": 11.5
+      },
+      {
+        "country": null,
+        "score": 11.5
+      },
+      {
+        "country": "Pakistan",
+        "score": 11.0
+      },
+      {
+        "country": null,
+        "score": 11.0
+      },
+      {
+        "country": "Suriname",
+        "score": 11.0
+      },
+      {
+        "country": "Mauritania",
+        "score": 11.0
+      },
+      {
+        "country": "Sierra Leone",
+        "score": 11.0
+      },
+      {
+        "country": "Antigua & Barbuda",
+        "score": 11.0
+      },
+      {
+        "country": "Uganda",
+        "score": 10.5
+      },
+      {
+        "country": "Maldives",
+        "score": 10.0
+      },
+      {
+        "country": "Somaliland",
+        "score": 10.0
+      },
+      {
+        "country": "Albania",
+        "score": 10.0
+      },
+      {
+        "country": "Vanuatu",
+        "score": 10.0
+      },
+      {
+        "country": "Bhutan",
+        "score": 10.0
+      },
+      {
+        "country": "Armenia",
+        "score": 10.0
+      },
+      {
+        "country": "Nigeria",
+        "score": 10.0
+      },
+      {
+        "country": "United States",
+        "score": 10.0
+      },
+      {
+        "country": "Lesotho",
+        "score": 10.0
+      },
+      {
+        "country": "Bangladesh",
+        "score": 9.0
+      },
+      {
+        "country": "Kenya",
+        "score": 8.5
+      },
+      {
+        "country": "Europe/Eurasia (Regional)",
+        "score": 8.0
+      },
+      {
+        "country": "Serbia",
+        "score": 7.5
+      },
+      {
+        "country": "Tanzania",
+        "score": 7.0
+      },
+      {
+        "country": null,
+        "score": 7.0
+      },
+      {
+        "country": "Botswana",
+        "score": 6.0
+      },
+      {
+        "country": "Tanzania (Zanzibar)",
+        "score": 5.0
+      },
+      {
+        "country": "Lithuania",
+        "score": 5.0
+      },
+      {
+        "country": "Antigua & Barbuda",
+        "score": 4.0
+      },
+      {
+        "country": "India",
+        "score": 1
+      },
+      {
+        "country": "Nigeria",
+        "score": 1
+      }
+    ],
+    "avg_score": 10.5,
+    "max_score": 62.5
+  },
+  "training_systems": {
+    "scores": [
+      {
+        "country": "Ethiopia",
+        "score": 13.5
+      },
+      {
+        "country": "Sierra Leone",
+        "score": 13.0
+      },
+      {
+        "country": "Nigeria",
+        "score": 11.5
+      },
+      {
+        "country": "Vanuatu",
+        "score": 11.0
+      },
+      {
+        "country": "Uganda",
+        "score": 10.0
+      },
+      {
+        "country": "Mauritania",
+        "score": 7.5
+      },
+      {
+        "country": "Sierra Leone",
+        "score": 5.5
+      },
+      {
+        "country": "Suriname",
+        "score": "4"
+      },
+      {
+        "country": "Lesotho",
+        "score": "4"
+      },
+      {
+        "country": "Kenya",
+        "score": 3.0
+      },
+      {
+        "country": "Lesotho",
+        "score": 3.0
+      },
+      {
+        "country": "Pakistan",
+        "score": 1.5
+      },
+      {
+        "country": "Maldives",
+        "score": 1.5
+      },
+      {
+        "country": "Taiwan",
+        "score": 1.5
+      },
+      {
+        "country": "Tanzania",
+        "score": 1.5
+      },
+      {
+        "country": null,
+        "score": 1.5
+      },
+      {
+        "country": "Albania",
+        "score": 1.5
+      },
+      {
+        "country": "Serbia",
+        "score": 1.5
+      },
+      {
+        "country": null,
+        "score": 1.5
+      },
+      {
+        "country": "Botswana",
+        "score": 1.5
+      },
+      {
+        "country": "Europe/Eurasia (Regional)",
+        "score": 1.5
+      },
+      {
+        "country": "Tanzania (Zanzibar)",
+        "score": 1.5
+      },
+      {
+        "country": "Antigua & Barbuda",
+        "score": 1.5
+      },
+      {
+        "country": "Antigua & Barbuda",
+        "score": 1.5
+      },
+      {
+        "country": "Bangladesh",
+        "score": 1.5
+      },
+      {
+        "country": "Bhutan",
+        "score": 1.5
+      },
+      {
+        "country": "Armenia",
+        "score": 1.5
+      },
+      {
+        "country": "Nigeria",
+        "score": 1.5
+      },
+      {
+        "country": "United States",
+        "score": 1.5
+      },
+      {
+        "country": "Antigua & Barbuda",
+        "score": 1.5
+      },
+      {
+        "country": "India",
+        "score": 1.5
+      },
+      {
+        "country": "Lithuania",
+        "score": 1.5
+      }
+    ],
+    "avg_score": 3.67,
+    "max_score": 13.5
+  },
+  "data_synchronization": {
+    "scores": [
+      {
+        "country": "Vanuatu",
+        "score": 12.0
+      },
+      {
+        "country": "Sierra Leone",
+        "score": 10.5
+      },
+      {
+        "country": "Uganda",
+        "score": "9"
+      },
+      {
+        "country": "Kenya",
+        "score": 8.0
+      },
+      {
+        "country": "Serbia",
+        "score": 8.0
+      },
+      {
+        "country": "Europe/Eurasia (Regional)",
+        "score": 8.0
+      },
+      {
+        "country": null,
+        "score": 8.0
+      },
+      {
+        "country": "Nigeria",
+        "score": 7.0
+      },
+      {
+        "country": "Taiwan",
+        "score": 6.5
+      },
+      {
+        "country": "Lesotho",
+        "score": 6.5
+      },
+      {
+        "country": "Botswana",
+        "score": 6.5
+      },
+      {
+        "country": "Antigua & Barbuda",
+        "score": 6.5
+      },
+      {
+        "country": "Sierra Leone",
+        "score": 6.5
+      },
+      {
+        "country": "Nigeria",
+        "score": 6.5
+      },
+      {
+        "country": "India",
+        "score": 6.5
+      },
+      {
+        "country": "Somaliland",
+        "score": 3.5
+      },
+      {
+        "country": "Tanzania (Zanzibar)",
+        "score": 3.0
+      },
+      {
+        "country": "Pakistan",
+        "score": 1.5
+      },
+      {
+        "country": "Maldives",
+        "score": 1.5
+      },
+      {
+        "country": "Tanzania",
+        "score": 1.5
+      },
+      {
+        "country": null,
+        "score": 1.5
+      },
+      {
+        "country": "Albania",
+        "score": 1.5
+      },
+      {
+        "country": "Suriname",
+        "score": 1.5
+      },
+      {
+        "country": "Mauritania",
+        "score": 1.5
+      },
+      {
+        "country": null,
+        "score": 1.5
+      },
+      {
+        "country": "Antigua & Barbuda",
+        "score": 1.5
+      },
+      {
+        "country": "Bangladesh",
+        "score": 1.5
+      },
+      {
+        "country": "Bhutan",
+        "score": 1.5
+      },
+      {
+        "country": "Armenia",
+        "score": 1.5
+      },
+      {
+        "country": "Ethiopia",
+        "score": 1.5
+      },
+      {
+        "country": "United States",
+        "score": 1.5
+      },
+      {
+        "country": "Antigua & Barbuda",
+        "score": 1.5
+      },
+      {
+        "country": "Lesotho",
+        "score": 1.5
+      },
+      {
+        "country": "Lithuania",
+        "score": 1.5
+      }
+    ],
+    "avg_score": 4.35,
+    "max_score": 12.0
+  },
+  "infrastructure": {
+    "scores": [
+      {
+        "country": "Antigua & Barbuda",
+        "score": 11.0
+      },
+      {
+        "country": "Nigeria",
+        "score": 11.0
+      },
+      {
+        "country": "Vanuatu",
+        "score": 10.0
+      },
+      {
+        "country": "Bangladesh",
+        "score": 10.0
+      },
+      {
+        "country": "Sierra Leone",
+        "score": 10.0
+      },
+      {
+        "country": "Kenya",
+        "score": 9.5
+      },
+      {
+        "country": "Uganda",
+        "score": 9.5
+      },
+      {
+        "country": "Suriname",
+        "score": 9.0
+      },
+      {
+        "country": "Sierra Leone",
+        "score": 9.0
+      },
+      {
+        "country": "Pakistan",
+        "score": 8.0
+      },
+      {
+        "country": "Lesotho",
+        "score": 8.0
+      },
+      {
+        "country": "Mauritania",
+        "score": 7.5
+      },
+      {
+        "country": "Ethiopia",
+        "score": 7.0
+      },
+      {
+        "country": "United States",
+        "score": 7.0
+      },
+      {
+        "country": "Somaliland",
+        "score": 6.0
+      },
+      {
+        "country": "Serbia",
+        "score": 6.0
+      },
+      {
+        "country": "Armenia",
+        "score": 6.0
+      },
+      {
+        "country": "Tanzania",
+        "score": 5.5
+      },
+      {
+        "country": null,
+        "score": 5.5
+      },
+      {
+        "country": "Nigeria",
+        "score": 5.0
+      },
+      {
+        "country": "Taiwan",
+        "score": 4.5
+      },
+      {
+        "country": null,
+        "score": 4
+      },
+      {
+        "country": "Bhutan",
+        "score": 4.0
+      },
+      {
+        "country": "India",
+        "score": 4.0
+      },
+      {
+        "country": "Lithuania",
+        "score": 4.0
+      },
+      {
+        "country": "Botswana",
+        "score": 3.5
+      },
+      {
+        "country": "Tanzania (Zanzibar)",
+        "score": 3.5
+      },
+      {
+        "country": "Maldives",
+        "score": 3.0
+      },
+      {
+        "country": "Lesotho",
+        "score": 3.0
+      },
+      {
+        "country": "Albania",
+        "score": 3.0
+      },
+      {
+        "country": "Antigua & Barbuda",
+        "score": 3.0
+      },
+      {
+        "country": "Europe/Eurasia (Regional)",
+        "score": 1.5
+      },
+      {
+        "country": "Antigua & Barbuda",
+        "score": 1.5
+      }
+    ],
+    "avg_score": 6.15,
+    "max_score": 11.0
+  },
+  "area_ranking": [
+    {
+      "area": "temporary_workforce",
+      "avg_severity": 10.5
+    },
+    {
+      "area": "infrastructure",
+      "avg_severity": 6.15
+    },
+    {
+      "area": "data_synchronization",
+      "avg_severity": 4.35
+    },
+    {
+      "area": "training_systems",
+      "avg_severity": 3.67
+    },
+    {
+      "area": "credential_verification",
+      "avg_severity": 3.28
+    }
+  ]
+}

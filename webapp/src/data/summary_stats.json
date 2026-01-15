@@ -1,0 +1,508 @@
+{
+  "response_overview": {
+    "total_responses": 34,
+    "date_range": {
+      "earliest": "2025-11-10 10:39:04",
+      "latest": "2025-12-29 09:00:08"
+    },
+    "completion": {
+      "mean": 30.0,
+      "median": 30.9,
+      "min": 18.9,
+      "max": 36.2,
+      "std": 4.3
+    },
+    "countries": {
+      "unique_count": 26,
+      "list": [
+        "Pakistan",
+        "Maldives",
+        "Taiwan",
+        "Kenya",
+        "Uganda",
+        "Tanzania",
+        "Somaliland",
+        "Lesotho",
+        "Albania",
+        "Serbia",
+        "Suriname",
+        "Mauritania",
+        "Vanuatu",
+        "Sierra Leone",
+        "Botswana",
+        "Europe/Eurasia (Regional)",
+        "Tanzania (Zanzibar)",
+        "Antigua & Barbuda",
+        "Bangladesh",
+        "Bhutan",
+        "Armenia",
+        "Nigeria",
+        "Ethiopia",
+        "United States",
+        "India",
+        "Lithuania"
+      ]
+    },
+    "regions": {
+      "Africa": 14,
+      "Asia-Pacific": 7,
+      "Europe": 5,
+      "Americas": 5
+    },
+    "followup_willing": {
+      "Yes": 12,
+      "Contact me with more information": 12,
+      "No": 7
+    }
+  },
+  "credential_verification": {
+    "fraud_incidents": {
+      "n": 9,
+      "missing": 25,
+      "missing_pct": 73.5,
+      "mean": 2.11,
+      "median": 1.0,
+      "std": 1.45,
+      "min": 1,
+      "max": 4,
+      "distribution": {
+        "1-5": 5,
+        "6-10": 1,
+        "20+": 3
+      }
+    },
+    "verification_hours": {
+      "n": 33,
+      "missing": 1,
+      "missing_pct": 2.9,
+      "mean": 1.58,
+      "median": 1.0,
+      "std": 0.83,
+      "min": 1,
+      "max": 4,
+      "distribution": {
+        "<5 hrs": 20,
+        "5-20 hrs": 8,
+        "21-50 hrs": 4,
+        "51-100 hrs": 1
+      }
+    },
+    "challenges": {
+      "n": 34,
+      "missing": 0,
+      "missing_pct": 0.0,
+      "total_selections": 62,
+      "avg_selections_per_response": 1.82,
+      "option_counts": {
+        "Difficulty verifying in remote/offline locations": 11,
+        "Time delays in verification": 10,
+        "No significant challenges": 10,
+        "Lack of centralised verification system": 9,
+        "Less than 25%": 7,
+        "Suspected fraud or unauthorised access": 5,
+        "Lost or forgotten credentials": 5,
+        "Cost of producing physical credentials": 3,
+        "Other": 2
+      }
+    }
+  },
+  "temporary_workforce": {
+    "workforce_percentage": {
+      "n": 27,
+      "missing": 7,
+      "missing_pct": 20.6,
+      "mean": 4.89,
+      "median": 4.0,
+      "std": 7.06,
+      "min": 2,
+      "max": 40,
+      "distribution": {
+        "25-50%": 4,
+        "51-75%": 4,
+        "75%+": 18,
+        "40": 1
+      }
+    },
+    "challenges": {
+      "n": 34,
+      "missing": 0,
+      "missing_pct": 0.0,
+      "total_selections": 102,
+      "avg_selections_per_response": 3.0,
+      "option_counts": {
+        "Losing trained workers to other opportunities between elections": 21,
+        "Never": 16,
+        "No system to track worker performance across elections": 12,
+        "No year-round engagement with temporary workers": 11,
+        "Difficulty matching worker skills to appropriate roles": 11,
+        "Rarely (1-5 times per election)": 10,
+        "High training costs due to constant new recruits": 9,
+        "Manual processes for managing thousands of temporary contracts": 9,
+        "Other": 3
+      }
+    }
+  },
+  "training_systems": {
+    "verification_frequency": {
+      "n": 8,
+      "missing": 26,
+      "missing_pct": 76.5,
+      "mean": 2.38,
+      "median": 2.0,
+      "std": 0.74,
+      "min": 2,
+      "max": 4,
+      "distribution": {
+        "Sometimes": 6,
+        "Often": 1,
+        "Very Often": 1
+      }
+    },
+    "hours_resolving": {
+      "n": 5,
+      "missing": 29,
+      "missing_pct": 85.3,
+      "mean": 3.8,
+      "median": 4.0,
+      "std": 0.84,
+      "min": 3,
+      "max": 5,
+      "distribution": {
+        "21-50 hrs": 2,
+        "51-100 hrs": 2,
+        "100+ hrs": 1
+      }
+    },
+    "system_confidence": {
+      "n": 29,
+      "missing": 5,
+      "missing_pct": 14.7,
+      "mean": 3.83,
+      "median": 4.0,
+      "std": 0.38,
+      "min": 3,
+      "max": 4,
+      "distribution": {
+        "Neutral": 5,
+        "Confident": 24
+      }
+    },
+    "lost_record_handling": {
+      "Check paper backup records": 10,
+      "Supervisor makes judgment call": 8,
+      "Less than 10 hours": 5,
+      "Worker cannot work that election": 2,
+      "10-50 hours": 2,
+      "Training records have never been lost nor disputed.": 1,
+      "(Training Records have never been lost nor disputed)": 1,
+      "Not applicable": 1,
+      "That never happens, records are always at hand and are well protected": 1,
+      "Doesn't normally happen": 1,
+      "It has never happen": 1
+    }
+  },
+  "documentation": {
+    "methods": {
+      "n": 23,
+      "missing": 11,
+      "missing_pct": 32.4,
+      "total_selections": 33,
+      "avg_selections_per_response": 1.43,
+      "option_counts": {
+        "Manual signatures": 16,
+        "Specialised software": 10,
+        "Tracking ballot movement - 2": 4,
+        "Other": 3
+      }
+    },
+    "confidence": {
+      "ballot_tracking": {
+        "n": 29,
+        "missing": 5,
+        "missing_pct": 14.7,
+        "mean": 3.83,
+        "median": 4.0,
+        "std": 0.38,
+        "min": 3,
+        "max": 4,
+        "distribution": {
+          "Neutral": 5,
+          "Confident": 24
+        }
+      },
+      "recording_incidents": {
+        "n": 33,
+        "missing": 1,
+        "missing_pct": 2.9,
+        "mean": 3.58,
+        "median": 4.0,
+        "std": 0.66,
+        "min": 2,
+        "max": 4,
+        "distribution": {
+          "Unconfident": 3,
+          "Neutral": 8,
+          "Confident": 22
+        }
+      },
+      "audit_preparedness": {
+        "n": 33,
+        "missing": 1,
+        "missing_pct": 2.9,
+        "mean": 3.45,
+        "median": 4.0,
+        "std": 0.87,
+        "min": 1,
+        "max": 4,
+        "distribution": {
+          "Very Unconfident": 1,
+          "Unconfident": 5,
+          "Neutral": 5,
+          "Confident": 22
+        }
+      },
+      "legal_defensibility": {
+        "n": 34,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "mean": 3.56,
+        "median": 4.0,
+        "std": 0.7,
+        "min": 2,
+        "max": 4,
+        "distribution": {
+          "Unconfident": 4,
+          "Neutral": 7,
+          "Confident": 23
+        }
+      }
+    }
+  },
+  "data_synchronization": {
+    "conflicting_info_frequency": {
+      "n": 4,
+      "missing": 30,
+      "missing_pct": 88.2,
+      "mean": 2.0,
+      "median": 2.0,
+      "std": 0.0,
+      "min": 2,
+      "max": 2,
+      "distribution": {
+        "Sometimes": 4
+      }
+    },
+    "provisional_ballot_tracking": {
+      "Instantly (real-time synchronisation)": 12,
+      "We don't track provisional ballot resolution": 8,
+      "6-15%": 3,
+      "Within 1 hour": 3
+    },
+    "sync_time": {
+      "We don't have a connected system": 14,
+      "Within 24 hours": 1
+    },
+    "sync_confidence": {
+      "n": 33,
+      "missing": 1,
+      "missing_pct": 2.9,
+      "mean": 3.79,
+      "median": 4.0,
+      "std": 0.42,
+      "min": 3,
+      "max": 4,
+      "distribution": {
+        "Neutral": 7,
+        "Confident": 26
+      }
+    }
+  },
+  "technology_infrastructure": {
+    "levels": {
+      "recruitment": {
+        "n": 19,
+        "missing": 15,
+        "missing_pct": 44.1,
+        "mean": 2.26,
+        "median": 2.0,
+        "std": 0.45,
+        "min": 2,
+        "max": 3,
+        "distribution": {
+          "Moderate": 14,
+          "Advanced": 5
+        }
+      },
+      "training": {
+        "n": 28,
+        "missing": 6,
+        "missing_pct": 17.6,
+        "mean": 1.79,
+        "median": 2.0,
+        "std": 0.63,
+        "min": 1,
+        "max": 3,
+        "distribution": {
+          "Basic": 9,
+          "Moderate": 16,
+          "Advanced": 3
+        }
+      },
+      "performance": {
+        "n": 25,
+        "missing": 9,
+        "missing_pct": 26.5,
+        "mean": 1.8,
+        "median": 2.0,
+        "std": 0.5,
+        "min": 1,
+        "max": 3,
+        "distribution": {
+          "Basic": 6,
+          "Moderate": 18,
+          "Advanced": 1
+        }
+      },
+      "communication": {
+        "n": 30,
+        "missing": 4,
+        "missing_pct": 11.8,
+        "mean": 1.93,
+        "median": 2.0,
+        "std": 0.74,
+        "min": 1,
+        "max": 3,
+        "distribution": {
+          "Basic": 9,
+          "Moderate": 14,
+          "Advanced": 7
+        }
+      }
+    },
+    "limitations": {
+      "n": 33,
+      "missing": 1,
+      "missing_pct": 2.9,
+      "total_selections": 106,
+      "avg_selections_per_response": 3.21,
+      "option_counts": {
+        "Budget constraints": 27,
+        "Open-Ended Response": 25,
+        "Limited internet connectivity": 17,
+        "Insufficient IT support": 17,
+        "Lack of computers/devices": 13,
+        "0-25%": 4,
+        "Other": 3
+      }
+    }
+  },
+  "workforce_retention": {
+    "return_rate": {
+      "n": 22,
+      "missing": 12,
+      "missing_pct": 35.3,
+      "mean": 3.18,
+      "median": 3.0,
+      "std": 0.39,
+      "min": 3,
+      "max": 4,
+      "distribution": {
+        "51-75%": 18,
+        "76-100%": 4
+      }
+    },
+    "technologies_explored": {
+      "n": 30,
+      "missing": 4,
+      "missing_pct": 11.8,
+      "total_selections": 60,
+      "avg_selections_per_response": 2.0,
+      "option_counts": {
+        "Biometric systems/Digital identity solutions": 19,
+        "Portable credentials that workers could use across different jurisdictions or for other employment - Moderate impact (2)": 13,
+        "Electronic voting systems": 10,
+        "Internet of Things (IoT) sensors": 5,
+        "Portable credentials that workers could use across different jurisdictions or for other employment - No impact (0)": 4,
+        "Portable credentials that workers could use across different jurisdictions or for other employment - Slight impact (1)": 4,
+        "Other": 3,
+        "Blockchain/Distributed Ledger Technology": 2
+      }
+    },
+    "retention_impact": {
+      "portable_credentials_that_workers_could_use_across": {
+        "n": 10,
+        "missing": 24,
+        "missing_pct": 70.6,
+        "mean": 3.0,
+        "median": 3.0,
+        "std": 0.0,
+        "min": 3,
+        "max": 3,
+        "distribution": {
+          "Significant": 10
+        }
+      },
+      "digital_achievement_badges_or_recognition_for_comp": {
+        "n": 31,
+        "missing": 3,
+        "missing_pct": 8.8,
+        "mean": 2.16,
+        "median": 2.0,
+        "std": 0.97,
+        "min": 0,
+        "max": 3,
+        "distribution": {
+          "No Impact": 2,
+          "Slight": 6,
+          "Moderate": 8,
+          "Significant": 15
+        }
+      },
+      "permanent,_verifiable_service_records_that_workers": {
+        "n": 30,
+        "missing": 4,
+        "missing_pct": 11.8,
+        "mean": 2.2,
+        "median": 2.5,
+        "std": 1.0,
+        "min": 0,
+        "max": 3,
+        "distribution": {
+          "No Impact": 3,
+          "Slight": 3,
+          "Moderate": 9,
+          "Significant": 15
+        }
+      }
+    },
+    "worker_interest": {
+      "n": 6,
+      "missing": 28,
+      "missing_pct": 82.4,
+      "mean": 1.0,
+      "median": 1.0,
+      "std": 0.0,
+      "min": 1,
+      "max": 1,
+      "distribution": {
+        "Never Raised": 6
+      }
+    }
+  },
+  "external_support": {
+    "support_needed": {
+      "n": 33,
+      "missing": 1,
+      "missing_pct": 2.9,
+      "total_selections": 132,
+      "avg_selections_per_response": 4.0,
+      "option_counts": {
+        "Open-Ended Response": 86,
+        "Best practice sharing": 23,
+        "Technical expertise": 15,
+        "Legal/regulatory guidance": 6,
+        "Other": 2
+      }
+    }
+  }
+}

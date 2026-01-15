@@ -1,0 +1,182 @@
+{
+  "Asia-Pacific": {
+    "response_count": 7,
+    "countries": [
+      "Pakistan",
+      "Maldives",
+      "Taiwan",
+      "Vanuatu",
+      "Bangladesh",
+      "Bhutan",
+      "India"
+    ],
+    "fraud_incidents_mean": null,
+    "verification_hours_mean": 1.57,
+    "temp_workforce_pct_mean": 3.67,
+    "worker_return_rate_mean": 3.0,
+    "training_confidence_mean": 3.86,
+    "sync_confidence_mean": 3.86,
+    "tech_recruitment_mean": 2.0,
+    "tech_training_mean": 1.67,
+    "tech_performance_mean": 1.8,
+    "tech_communication_mean": 1.71,
+    "avg_completion_score": 30.25,
+    "followup_willing_count": "3",
+    "followup_willing_pct": 42.86,
+    "top_infrastructure_limitations": {
+      "Budget constraints": 5,
+      "Insufficient IT support": 4,
+      "Limited internet connectivity": 3,
+      "Lack of computers/devices": 3,
+      "0-25%": 1
+    },
+    "top_credential_challenges": {
+      "No significant challenges": 4,
+      "Lack of centralised verification system": 2,
+      "Time delays in verification": 1,
+      "Difficulty verifying in remote/offline locations": 1
+    },
+    "technologies_explored": {
+      "Biometric systems/Digital identity solutions": 5,
+      "Electronic voting systems": 4,
+      "Internet of Things (IoT) sensors": 2,
+      "Portable credentials that workers could use across different jurisdictions or for other employment - No impact (0)": 2,
+      "Portable credentials that workers could use across different jurisdictions or for other employment - Slight impact (1)": 2,
+      "Portable credentials that workers could use across different jurisdictions or for other employment - Moderate impact (2)": 2
+    }
+  },
+  "Africa": {
+    "response_count": 14,
+    "countries": [
+      "Kenya",
+      "Uganda",
+      "Tanzania",
+      "Somaliland",
+      "Lesotho",
+      "Mauritania",
+      "Sierra Leone",
+      "Botswana",
+      "Tanzania (Zanzibar)",
+      "Nigeria",
+      "Ethiopia"
+    ],
+    "fraud_incidents_mean": 3.25,
+    "verification_hours_mean": 1.79,
+    "temp_workforce_pct_mean": 3.64,
+    "worker_return_rate_mean": 3.12,
+    "training_confidence_mean": 3.64,
+    "sync_confidence_mean": 3.77,
+    "tech_recruitment_mean": 2.38,
+    "tech_training_mean": 1.64,
+    "tech_performance_mean": 1.7,
+    "tech_communication_mean": 1.85,
+    "avg_completion_score": 30.79,
+    "followup_willing_count": "7",
+    "followup_willing_pct": 50.0,
+    "top_infrastructure_limitations": {
+      "Budget constraints": 12,
+      "Limited internet connectivity": 11,
+      "Insufficient IT support": 8,
+      "Lack of computers/devices": 6,
+      "0-25%": 3
+    },
+    "top_credential_challenges": {
+      "Difficulty verifying in remote/offline locations": 8,
+      "Time delays in verification": 7,
+      "Suspected fraud or unauthorised access": 3,
+      "No significant challenges": 3,
+      "Lack of centralised verification system": 3
+    },
+    "technologies_explored": {
+      "Biometric systems/Digital identity solutions": 10,
+      "Portable credentials that workers could use across different jurisdictions or for other employment - Moderate impact (2)": 5,
+      "Electronic voting systems": 2,
+      "Portable credentials that workers could use across different jurisdictions or for other employment - No impact (0)": 1,
+      "Portable credentials that workers could use across different jurisdictions or for other employment - Slight impact (1)": 1,
+      "Internet of Things (IoT) sensors": 1
+    }
+  },
+  "Europe": {
+    "response_count": 5,
+    "countries": [
+      "Albania",
+      "Serbia",
+      "Europe/Eurasia (Regional)",
+      "Armenia",
+      "Lithuania"
+    ],
+    "fraud_incidents_mean": 1.0,
+    "verification_hours_mean": 1.6,
+    "temp_workforce_pct_mean": 2.5,
+    "worker_return_rate_mean": 3.25,
+    "training_confidence_mean": 4.0,
+    "sync_confidence_mean": 3.6,
+    "tech_recruitment_mean": 2.5,
+    "tech_training_mean": 2.4,
+    "tech_performance_mean": 2.0,
+    "tech_communication_mean": 2.4,
+    "avg_completion_score": 29.9,
+    "followup_willing_count": "1",
+    "followup_willing_pct": 20.0,
+    "top_infrastructure_limitations": {
+      "Budget constraints": 4,
+      "Insufficient IT support": 3
+    },
+    "top_credential_challenges": {
+      "Lack of centralised verification system": 2,
+      "Cost of producing physical credentials": 1,
+      "Suspected fraud or unauthorised access": 1,
+      "Time delays in verification": 1,
+      "No significant challenges": 1
+    },
+    "technologies_explored": {
+      "Portable credentials that workers could use across different jurisdictions or for other employment - Moderate impact (2)": 4,
+      "Biometric systems/Digital identity solutions": 2,
+      "Electronic voting systems": 2,
+      "Blockchain/Distributed Ledger Technology": 1,
+      "Internet of Things (IoT) sensors": 1
+    }
+  },
+  "Americas": {
+    "response_count": 5,
+    "countries": [
+      "Suriname",
+      "Antigua & Barbuda",
+      "United States"
+    ],
+    "fraud_incidents_mean": 1.5,
+    "verification_hours_mean": 1.25,
+    "temp_workforce_pct_mean": 13.0,
+    "worker_return_rate_mean": 3.33,
+    "training_confidence_mean": 4.0,
+    "sync_confidence_mean": 4.0,
+    "tech_recruitment_mean": 2.0,
+    "tech_training_mean": 1.6,
+    "tech_performance_mean": 1.75,
+    "tech_communication_mean": 2.0,
+    "avg_completion_score": 30.82,
+    "followup_willing_count": "1",
+    "followup_willing_pct": 20.0,
+    "top_infrastructure_limitations": {
+      "Budget constraints": 4,
+      "Lack of computers/devices": 3,
+      "Limited internet connectivity": 2,
+      "Insufficient IT support": 2
+    },
+    "top_credential_challenges": {
+      "Lost or forgotten credentials": 2,
+      "No significant challenges": 2,
+      "Time delays in verification": 1,
+      "Difficulty verifying in remote/offline locations": 1,
+      "Lack of centralised verification system": 1
+    },
+    "technologies_explored": {
+      "Electronic voting systems": 2,
+      "Biometric systems/Digital identity solutions": 1,
+      "Portable credentials that workers could use across different jurisdictions or for other employment - Moderate impact (2)": 1,
+      "Blockchain/Distributed Ledger Technology": 1,
+      "Internet of Things (IoT) sensors": 1,
+      "Portable credentials that workers could use across different jurisdictions or for other employment - Slight impact (1)": 1
+    }
+  }
+}

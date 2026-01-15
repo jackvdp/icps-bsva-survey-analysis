@@ -1,0 +1,262 @@
+{
+  "completion_stats": {
+    "mean": 30.0,
+    "median": 30.9,
+    "std": 4.3,
+    "min": 18.9,
+    "max": 36.2
+  },
+  "missing_data": {
+    "by_column": {
+      "tech_level_none_of_the_above": {
+        "missing_count": 32,
+        "missing_pct": 94.1
+      },
+      "retention_impact_rarely_discussed": {
+        "missing_count": 30,
+        "missing_pct": 88.2
+      },
+      "tech_adoption_barriers_text": {
+        "missing_count": 28,
+        "missing_pct": 82.4
+      },
+      "unknown_workers_pct": {
+        "missing_count": 27,
+        "missing_pct": 79.4
+      },
+      "retention_impact_yes,_frequently_requested": {
+        "missing_count": 26,
+        "missing_pct": 76.5
+      },
+      "fraud_incidents": {
+        "missing_count": 25,
+        "missing_pct": 73.5
+      },
+      "hours_resolving_training": {
+        "missing_count": 25,
+        "missing_pct": 73.5
+      },
+      "tech_level_unreliable_electricity": {
+        "missing_count": 23,
+        "missing_pct": 67.6
+      },
+      "retention_impact_yes,_occasionally_mentioned": {
+        "missing_count": 23,
+        "missing_pct": 67.6
+      },
+      "training_verification_frequency": {
+        "missing_count": 22,
+        "missing_pct": 64.7
+      },
+      "documentation_challenges_text": {
+        "missing_count": 22,
+        "missing_pct": 64.7
+      },
+      "retention_impact_portable_credentials_that_workers_could_use_across_different_jurisdictions_or_for_other_employment": {
+        "missing_count": 22,
+        "missing_pct": 64.7
+      },
+      "experienced_workers_pct": {
+        "missing_count": 20,
+        "missing_pct": 58.8
+      },
+      "sync_time": {
+        "missing_count": 19,
+        "missing_pct": 55.9
+      },
+      "priority_2": {
+        "missing_count": 17,
+        "missing_pct": 50.0
+      },
+      "doc_confidence_never": {
+        "missing_count": 16,
+        "missing_pct": 47.1
+      },
+      "tech_level_worker_recruitment": {
+        "missing_count": 15,
+        "missing_pct": 44.1
+      },
+      "priority_1": {
+        "missing_count": 15,
+        "missing_pct": 44.1
+      },
+      "doc_confidence_open-ended_response": {
+        "missing_count": 14,
+        "missing_pct": 41.2
+      },
+      "priority_3": {
+        "missing_count": 12,
+        "missing_pct": 35.3
+      },
+      "documentation_methods": {
+        "missing_count": 11,
+        "missing_pct": 32.4
+      },
+      "conflicting_info_frequency": {
+        "missing_count": 9,
+        "missing_pct": 26.5
+      },
+      "tech_level_performance_tracking": {
+        "missing_count": 9,
+        "missing_pct": 26.5
+      },
+      "hours_offboarding": {
+        "missing_count": 8,
+        "missing_pct": 23.5
+      },
+      "provisional_ballot_tracking": {
+        "missing_count": 8,
+        "missing_pct": 23.5
+      },
+      "hours_recruitment_onboarding": {
+        "missing_count": 7,
+        "missing_pct": 20.6
+      },
+      "hours_deployment_scheduling": {
+        "missing_count": 7,
+        "missing_pct": 20.6
+      },
+      "hours_payroll_processing": {
+        "missing_count": 7,
+        "missing_pct": 20.6
+      },
+      "worker_return_rate": {
+        "missing_count": 7,
+        "missing_pct": 20.6
+      },
+      "hours_training_coordination": {
+        "missing_count": 6,
+        "missing_pct": 17.6
+      },
+      "tech_level_training_delivery": {
+        "missing_count": 6,
+        "missing_pct": 17.6
+      },
+      "new_workers_pct": {
+        "missing_count": 5,
+        "missing_pct": 14.7
+      },
+      "doc_confidence_tracking_ballot_movement": {
+        "missing_count": 5,
+        "missing_pct": 14.7
+      },
+      "single_change_suggestion_text": {
+        "missing_count": 5,
+        "missing_pct": 14.7
+      },
+      "elections_annually": {
+        "missing_count": 5,
+        "missing_pct": 14.7
+      },
+      "temp_workforce_percentage": {
+        "missing_count": 4,
+        "missing_pct": 11.8
+      },
+      "returning_workers_pct": {
+        "missing_count": 4,
+        "missing_pct": 11.8
+      },
+      "tech_level_communication_systems": {
+        "missing_count": 4,
+        "missing_pct": 11.8
+      },
+      "technologies_explored": {
+        "missing_count": 4,
+        "missing_pct": 11.8
+      },
+      "implementation_concerns_text": {
+        "missing_count": 4,
+        "missing_pct": 11.8
+      },
+      "temp_workers_count": {
+        "missing_count": 4,
+        "missing_pct": 11.8
+      },
+      "worker_interest_credentials": {
+        "missing_count": 3,
+        "missing_pct": 8.8
+      },
+      "country": {
+        "missing_count": 3,
+        "missing_pct": 8.8
+      },
+      "region": {
+        "missing_count": 3,
+        "missing_pct": 8.8
+      },
+      "followup_willing": {
+        "missing_count": 3,
+        "missing_pct": 8.8
+      },
+      "retention_impact_permanent,_verifiable_service_records_that_workers_could_reference_for_future_opportunities": {
+        "missing_count": 2,
+        "missing_pct": 5.9
+      },
+      "credential_verification_hours": {
+        "missing_count": 1,
+        "missing_pct": 2.9
+      },
+      "lost_record_handling": {
+        "missing_count": 1,
+        "missing_pct": 2.9
+      },
+      "doc_confidence_recording_incidents": {
+        "missing_count": 1,
+        "missing_pct": 2.9
+      },
+      "doc_confidence_audit_preparedness": {
+        "missing_count": 1,
+        "missing_pct": 2.9
+      },
+      "sync_system_confidence": {
+        "missing_count": 1,
+        "missing_pct": 2.9
+      },
+      "infrastructure_limitations": {
+        "missing_count": 1,
+        "missing_pct": 2.9
+      },
+      "retention_impact_digital_achievement_badges_or_recognition_for_completing_elections_or_training_milestones": {
+        "missing_count": 1,
+        "missing_pct": 2.9
+      },
+      "external_support_needed": {
+        "missing_count": 1,
+        "missing_pct": 2.9
+      }
+    },
+    "high_missing_columns": [
+      "tech_level_none_of_the_above",
+      "retention_impact_rarely_discussed",
+      "tech_adoption_barriers_text",
+      "unknown_workers_pct",
+      "retention_impact_yes,_frequently_requested",
+      "fraud_incidents",
+      "hours_resolving_training",
+      "tech_level_unreliable_electricity",
+      "retention_impact_yes,_occasionally_mentioned",
+      "training_verification_frequency",
+      "documentation_challenges_text",
+      "retention_impact_portable_credentials_that_workers_could_use_across_different_jurisdictions_or_for_other_employment",
+      "experienced_workers_pct",
+      "sync_time"
+    ],
+    "moderate_missing_columns": [
+      "priority_2",
+      "doc_confidence_never",
+      "tech_level_worker_recruitment",
+      "priority_1",
+      "doc_confidence_open-ended_response",
+      "priority_3",
+      "documentation_methods",
+      "conflicting_info_frequency",
+      "tech_level_performance_tracking"
+    ]
+  },
+  "completion_by_region": {
+    "Africa": 30.8,
+    "Americas": 30.8,
+    "Asia-Pacific": 30.2,
+    "Europe": 29.9
+  }
+}
