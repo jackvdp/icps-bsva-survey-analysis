@@ -1,5 +1,6 @@
 {
   "response_overview": {
+    "total_raw_responses": 46,
     "total_responses": 34,
     "date_range": {
       "earliest": "2025-11-10 10:39:04",

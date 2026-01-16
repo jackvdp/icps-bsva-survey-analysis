@@ -83,6 +83,7 @@ export interface InfrastructureSegment {
 
 export interface SummaryStats {
   response_overview: {
+    total_raw_responses: number;
     total_responses: number;
     date_range: { earliest: string; latest: string };
     completion: {

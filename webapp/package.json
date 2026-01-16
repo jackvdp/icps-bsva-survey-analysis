@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "rebuild": "cd .. && ./rebuild.sh",
+    "rebuild:build": "cd .. && ./rebuild.sh --build"
   },
   "dependencies": {
     "@radix-ui/react-progress": "^1.1.8",

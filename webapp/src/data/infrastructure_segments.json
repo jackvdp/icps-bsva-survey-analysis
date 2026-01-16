@@ -112,19 +112,19 @@
       "count": 13,
       "avg_score": 7.65,
       "countries": [
-        "Serbia",
-        "Nigeria",
-        "Europe/Eurasia (Regional)",
-        "Albania",
-        "Tanzania (Zanzibar)",
-        "United States",
-        "Antigua & Barbuda",
-        "India",
-        "Tanzania",
         "Lithuania",
-        "Armenia",
+        "Nigeria",
+        "Serbia",
+        "Europe/Eurasia (Regional)",
+        "Bhutan",
         "Botswana",
-        "Bhutan"
+        "United States",
+        "India",
+        "Antigua & Barbuda",
+        "Tanzania (Zanzibar)",
+        "Tanzania",
+        "Albania",
+        "Armenia"
       ],
       "regions": {
         "Europe": "5",
@@ -253,19 +253,19 @@
       "count": 14,
       "avg_score": 5.57,
       "countries": [
-        "Suriname",
+        "Lesotho",
+        "Pakistan",
         "Uganda",
+        "Ethiopia",
+        "Kenya",
         "Taiwan",
         "Somaliland",
-        "Mauritania",
-        "Ethiopia",
-        "Antigua & Barbuda",
-        "Bangladesh",
-        "Maldives",
-        "Pakistan",
-        "Lesotho",
+        "Suriname",
         "Sierra Leone",
-        "Kenya"
+        "Bangladesh",
+        "Antigua & Barbuda",
+        "Mauritania",
+        "Maldives"
       ],
       "regions": {
         "Africa": "8",
@@ -315,8 +315,8 @@
       "countries": [
         "Antigua & Barbuda",
         "Sierra Leone",
-        "Vanuatu",
-        "Nigeria"
+        "Nigeria",
+        "Vanuatu"
       ],
       "regions": {
         "Africa": "2",

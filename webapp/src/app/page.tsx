@@ -29,7 +29,7 @@ export default function ExecutiveSummary() {
         <Card>
           <CardHeader className="pb-2">
             <CardDescription>Total Responses</CardDescription>
-            <CardTitle className="text-4xl">{totalResponses}</CardTitle>
+            <CardTitle className="text-4xl">{overview.total_raw_responses}</CardTitle>
           </CardHeader>
           <CardContent>
             <p className="text-xs text-muted-foreground">

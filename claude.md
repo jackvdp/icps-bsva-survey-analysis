@@ -205,7 +205,9 @@ Once clean data is available, use Claude for:
 
 ```
 /
-├── claude.md                          # This file - project context and instructions
+├── CLAUDE.md                          # This file - project context and instructions
+├── REBUILD.md                         # Instructions for rebuilding the dashboard
+├── rebuild.sh                         # Single-command pipeline script
 ├── data/
 │   ├── raw/
 │   │   └── Electoral_Workforce_Survey.csv    # Original SurveyMonkey export
@@ -433,6 +435,31 @@ The webinar proposal is titled **"Empowering the Election Workforce: Blockchain 
 ---
 
 ## Working with This Repository
+
+### Rebuilding the Dashboard
+
+Use the automated pipeline to regenerate all analysis outputs and update the webapp:
+
+```bash
+# Full rebuild (runs Python scripts + copies JSON to webapp)
+./rebuild.sh
+
+# Full rebuild + build webapp for production
+./rebuild.sh --build
+
+# From webapp directory
+npm run rebuild
+```
+
+The pipeline runs:
+1. `01_data_cleaning.py` - Parses raw SurveyMonkey export
+2. `02_exploratory_analysis.py` - Generates summary statistics
+3. `03_segment_analysis.py` - Creates regional/pilot analysis
+4. Copies 7 JSON files to `webapp/src/data/`
+
+**Note:** `qualitative_synthesis.json` must be updated manually via Claude analysis of open-ended responses.
+
+See `REBUILD.md` for full documentation.
 
 ### For Claude Code
 

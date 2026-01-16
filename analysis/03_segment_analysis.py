@@ -47,6 +47,19 @@ def parse_list_column(val) -> List[str]:
     return []
 
 
+def clean_for_json(obj):
+    """Recursively clean NaN/NaT values from data structures for JSON serialization."""
+    if isinstance(obj, dict):
+        return {k: clean_for_json(v) for k, v in obj.items()}
+    elif isinstance(obj, list):
+        return [clean_for_json(item) for item in obj]
+    elif isinstance(obj, float) and (np.isnan(obj) or np.isinf(obj)):
+        return None
+    elif pd.isna(obj):
+        return None
+    return obj
+
+
 # =============================================================================
 # Regional Comparison Analysis
 # =============================================================================
@@ -637,7 +650,7 @@ def main():
 
     regional_path = OUTPUT_DIR / "regional_comparison.json"
     with open(regional_path, 'w', encoding='utf-8') as f:
-        json.dump(regional_comparison, f, indent=2, ensure_ascii=False, default=str)
+        json.dump(clean_for_json(regional_comparison), f, indent=2, ensure_ascii=False, default=str)
     print(f"Saved: {regional_path}")
 
     # ==========================================================================
@@ -648,7 +661,7 @@ def main():
 
     infra_path = OUTPUT_DIR / "infrastructure_segments.json"
     with open(infra_path, 'w', encoding='utf-8') as f:
-        json.dump(infrastructure_segments, f, indent=2, ensure_ascii=False, default=str)
+        json.dump(clean_for_json(infrastructure_segments), f, indent=2, ensure_ascii=False, default=str)
     print(f"Saved: {infra_path}")
 
     # ==========================================================================
@@ -659,7 +672,7 @@ def main():
 
     pain_path = OUTPUT_DIR / "pain_point_rankings.json"
     with open(pain_path, 'w', encoding='utf-8') as f:
-        json.dump(pain_points, f, indent=2, ensure_ascii=False, default=str)
+        json.dump(clean_for_json(pain_points), f, indent=2, ensure_ascii=False, default=str)
     print(f"Saved: {pain_path}")
 
     # ==========================================================================
@@ -670,7 +683,7 @@ def main():
 
     pilot_path = OUTPUT_DIR / "pilot_candidates.json"
     with open(pilot_path, 'w', encoding='utf-8') as f:
-        json.dump(pilot_candidates, f, indent=2, ensure_ascii=False, default=str)
+        json.dump(clean_for_json(pilot_candidates), f, indent=2, ensure_ascii=False, default=str)
     print(f"Saved: {pilot_path}")
 
     # ==========================================================================

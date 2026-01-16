@@ -39,8 +39,8 @@ RETURN_RATE_LABELS = {1: '0-25%', 2: '26-50%', 3: '51-75%', 4: '76-100%'}
 IMPACT_LABELS = {0: 'No Impact', 1: 'Slight', 2: 'Moderate', 3: 'Significant'}
 
 
-def load_data() -> pd.DataFrame:
-    """Load the cleaned survey data."""
+def load_data() -> tuple[pd.DataFrame, pd.DataFrame]:
+    """Load the cleaned survey data and all responses."""
     csv_path = PROCESSED_DIR / "survey_clean.csv"
     df = pd.read_csv(csv_path)
 
@@ -48,7 +48,11 @@ def load_data() -> pd.DataFrame:
     df['start_date'] = pd.to_datetime(df['start_date'], errors='coerce')
     df['end_date'] = pd.to_datetime(df['end_date'], errors='coerce')
 
-    return df
+    # Load all responses (including incomplete) for raw count
+    all_path = PROCESSED_DIR / "survey_all_responses.csv"
+    df_all = pd.read_csv(all_path)
+
+    return df, df_all
 
 
 def parse_list_column(series: pd.Series) -> List[List[str]]:
@@ -73,9 +77,10 @@ def parse_list_column(series: pd.Series) -> List[List[str]]:
     return result
 
 
-def calculate_response_stats(df: pd.DataFrame) -> Dict[str, Any]:
+def calculate_response_stats(df: pd.DataFrame, df_all: pd.DataFrame) -> Dict[str, Any]:
     """Calculate overall response statistics."""
     stats = {
+        'total_raw_responses': len(df_all),
         'total_responses': len(df),
         'date_range': {
             'earliest': str(df['start_date'].min()),
@@ -626,8 +631,8 @@ def plot_worker_return_rate(df: pd.DataFrame):
 def main():
     """Main analysis pipeline."""
     print("Loading cleaned survey data...")
-    df = load_data()
-    print(f"Loaded {len(df)} responses")
+    df, df_all = load_data()
+    print(f"Loaded {len(df)} complete responses ({len(df_all)} total)")
 
     # ==========================================================================
     # Generate Summary Statistics
@@ -635,7 +640,7 @@ def main():
     print("\nGenerating summary statistics...")
 
     summary_stats = {
-        'response_overview': calculate_response_stats(df),
+        'response_overview': calculate_response_stats(df, df_all),
         'credential_verification': analyze_credential_verification(df),
         'temporary_workforce': analyze_temporary_workforce(df),
         'training_systems': analyze_training_systems(df),
