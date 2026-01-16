@@ -15,7 +15,8 @@
       "Bash(npm run build:*)",
       "Bash(for f in *.json)",
       "Bash(do sed -i '' 's/: NaN/: null/g' \"$f\")",
-      "Bash(done)"
+      "Bash(done)",
+      "Bash(./venv/bin/python3:*)"
     ]
   }
 }

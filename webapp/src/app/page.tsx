@@ -1,16 +1,19 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Progress } from '@/components/ui/progress';
-import { getSummaryStats, getPilotCandidates, getQualitativeSynthesis } from '@/lib/data';
+import { getSummaryStats, getPilotCandidates, getQualitativeSynthesis, getKeyFindings } from '@/lib/data';
+import { executiveSummaryParagraphs, getExecutiveSummaryData } from '@/content/executive-summary';
 
 export default function ExecutiveSummary() {
   const stats = getSummaryStats();
   const pilots = getPilotCandidates();
   const qualitative = getQualitativeSynthesis();
+  const keyFindings = getKeyFindings();
 
   const overview = stats.response_overview;
   const regions = Object.entries(overview.regions);
   const totalResponses = overview.total_responses;
+  const summaryData = getExecutiveSummaryData(stats, qualitative);
 
   return (
     <div className="space-y-8">
@@ -64,11 +67,11 @@ export default function ExecutiveSummary() {
         <Card>
           <CardHeader className="pb-2">
             <CardDescription>Top Priority</CardDescription>
-            <CardTitle className="text-xl">Technology &amp; Digitalization</CardTitle>
+            <CardTitle className="text-xl">{keyFindings.topPriority.themeFormatted}</CardTitle>
           </CardHeader>
           <CardContent>
             <p className="text-xs text-muted-foreground">
-              Mentioned by {qualitative.priority_themes.technology_digitalization} respondents
+              Mentioned by {keyFindings.topPriority.count} respondents
             </p>
           </CardContent>
         </Card>
@@ -173,12 +176,12 @@ export default function ExecutiveSummary() {
           </CardHeader>
           <CardContent className="space-y-2">
             <div className="flex justify-between">
-              <span className="text-sm text-muted-foreground">Avg verification time</span>
-              <span className="font-medium">&lt;5 hours</span>
+              <span className="text-sm text-muted-foreground">Most common time</span>
+              <span className="font-medium">{keyFindings.credentialVerification.avgVerificationTime}</span>
             </div>
             <div className="flex justify-between">
               <span className="text-sm text-muted-foreground">Top challenge</span>
-              <span className="font-medium text-right text-sm">Remote verification</span>
+              <span className="font-medium text-right text-sm">{keyFindings.credentialVerification.topChallenge}</span>
             </div>
           </CardContent>
         </Card>
@@ -190,11 +193,11 @@ export default function ExecutiveSummary() {
           <CardContent className="space-y-2">
             <div className="flex justify-between">
               <span className="text-sm text-muted-foreground">Return rate</span>
-              <span className="font-medium">51-75%</span>
+              <span className="font-medium">{keyFindings.workforceRetention.returnRate}</span>
             </div>
             <div className="flex justify-between">
               <span className="text-sm text-muted-foreground">Top challenge</span>
-              <span className="font-medium text-right text-sm">Losing trained workers</span>
+              <span className="font-medium text-right text-sm">{keyFindings.workforceRetention.topChallenge}</span>
             </div>
           </CardContent>
         </Card>
@@ -206,11 +209,11 @@ export default function ExecutiveSummary() {
           <CardContent className="space-y-2">
             <div className="flex justify-between">
               <span className="text-sm text-muted-foreground">Most explored</span>
-              <span className="font-medium text-right text-sm">Biometrics</span>
+              <span className="font-medium text-right text-sm">{keyFindings.technologyAdoption.mostExplored}</span>
             </div>
             <div className="flex justify-between">
               <span className="text-sm text-muted-foreground">Top barrier</span>
-              <span className="font-medium text-right text-sm">Budget constraints</span>
+              <span className="font-medium text-right text-sm">{keyFindings.technologyAdoption.topBarrier}</span>
             </div>
           </CardContent>
         </Card>
@@ -222,79 +225,12 @@ export default function ExecutiveSummary() {
           <CardTitle>Analysis &amp; Key Insights</CardTitle>
         </CardHeader>
         <CardContent className="prose prose-sm max-w-none space-y-4 text-muted-foreground">
-          <p>
-            The ICPS Electoral Workforce Survey gathered responses from {totalResponses} electoral
-            management bodies across {overview.countries.unique_count} countries, representing a
-            diverse cross-section of democratic institutions from Africa ({overview.regions.Africa} responses),
-            Asia-Pacific ({overview.regions['Asia-Pacific']} responses), Europe ({overview.regions.Europe} responses),
-            and the Americas ({overview.regions.Americas} responses). This problem-discovery initiative,
-            conducted in partnership with the BSV Association, prioritised understanding the genuine
-            operational realities facing election administrators – the day-to-day challenges of recruiting,
-            training, credentialing, and retaining the workforce that makes democratic elections possible.
-          </p>
-          <p>
-            <strong>The workforce challenge is universal but manifests differently across regions.</strong> Election
-            management bodies worldwide rely heavily on temporary workers – poll workers, counting staff, and
-            election day officials who are recruited, trained, and deployed for specific electoral events.
-            The survey reveals that the most pressing challenge is not recruiting these workers initially,
-            but retaining institutional knowledge and trained capacity between election cycles. Over 60% of
-            respondents cited &quot;losing trained workers to other opportunities between elections&quot; as a
-            significant challenge, while many lack any systematic way to track worker performance or
-            maintain engagement during non-election periods. This creates a costly cycle of perpetual
-            re-recruitment and re-training.
-          </p>
-          <p>
-            <strong>Infrastructure constraints vary dramatically by region.</strong> Budget limitations emerged
-            as the dominant barrier, cited by {stats.technology_infrastructure.limitations.option_counts['Budget constraints']} respondents
-            ({Math.round((stats.technology_infrastructure.limitations.option_counts['Budget constraints'] as number) / totalResponses * 100)}%),
-            but the nature of constraints differs significantly. African jurisdictions face compounding
-            challenges: limited internet connectivity affects remote credential verification, insufficient
-            IT support hampers system maintenance, and lack of devices prevents digital record-keeping.
-            European respondents, by contrast, reported higher confidence in their existing systems but
-            identified resistance to change and skills gaps as primary concerns. The Americas showed
-            mixed infrastructure maturity, with some jurisdictions managing workforces of 750,000+ temporary
-            workers while others operate with fewer than 100.
-          </p>
-          <p>
-            <strong>Credential verification presents operational friction across all contexts.</strong> While
-            most respondents reported spending fewer than 5 hours per election on credential verification,
-            the challenges are qualitative rather than purely time-based. Difficulty verifying credentials
-            in remote or offline locations was the top-cited challenge, followed by time delays and the
-            lack of centralised verification systems. These issues compound in jurisdictions with large
-            geographic spread or limited connectivity, where a worker&apos;s training history and credentials
-            may exist only in paper records at a distant regional office.
-          </p>
-          <p>
-            <strong>Training systems show moderate confidence but fragile foundations.</strong> Respondents
-            expressed generally high confidence in their training delivery systems, with 24 of 29 reporting
-            they feel &quot;confident&quot; in their training record accuracy. However, when probed about how they
-            handle lost or disputed training records, responses revealed heavy reliance on manual fallbacks:
-            paper backup records, supervisor judgment calls, or simply excluding workers from deployment.
-            This suggests that confidence may be based on low incident rates rather than robust systems – a
-            distinction that matters significantly at scale or during contested elections.
-          </p>
-          <p>
-            <strong>Technology appetite is high, but adoption barriers are substantial.</strong> Technology
-            and digitalisation was overwhelmingly the top priority theme, mentioned
-            by {qualitative.priority_themes.technology_digitalization} respondents in open-ended responses.
-            Biometric systems and digital identity solutions have already been explored by the majority of
-            respondents, and interest in innovations like portable credentials and digital achievement
-            recognition was notably strong. However, implementation concerns are equally prominent:
-            resistance to change and skills gaps tied as the most-cited barriers, followed by the need
-            for political and stakeholder buy-in. Several respondents emphasised that technology adoption
-            requires not just infrastructure investment but sustained change management and capacity building.
-          </p>
-          <p>
-            <strong>The path forward requires matching solutions to genuine needs.</strong> This survey
-            deliberately avoided assuming that any particular technology – blockchain or otherwise – was the
-            answer. The findings confirm that electoral workforce challenges are real and significant, but
-            also highly context-dependent. A solution appropriate for a European jurisdiction with 350
-            temporary workers and reliable connectivity looks very different from one serving an African
-            election body managing 500,000 workers across areas with intermittent internet access. Over
-            70% of respondents expressed willingness to participate in follow-up discussions, suggesting
-            strong appetite for collaboration – but any engagement must begin with deep understanding of
-            local constraints and priorities rather than technology-first thinking.
-          </p>
+          {executiveSummaryParagraphs.map((paragraph) => (
+            <p key={paragraph.id}>
+              {paragraph.title && <strong>{paragraph.title} </strong>}
+              {paragraph.content(summaryData)}
+            </p>
+          ))}
         </CardContent>
       </Card>
     </div>
