@@ -43,7 +43,7 @@ export default function RootLayout({
         <SidebarProvider>
           <NavSidebar />
           <SidebarInset>
-            <header className="flex h-14 items-center gap-4 px-6">
+            <header className="flex h-14 items-center gap-4 border-b px-6">
               <SidebarTrigger />
               <span className="text-sm text-muted-foreground">Electoral Workforce Survey Analysis</span>
             </header>
