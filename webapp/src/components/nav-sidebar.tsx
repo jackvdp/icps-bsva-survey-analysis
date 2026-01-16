@@ -3,7 +3,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { cn } from '@/lib/utils';
 import {
   LayoutDashboard,
   AlertTriangle,
@@ -11,6 +10,17 @@ import {
   Globe,
   MessageSquareQuote,
 } from 'lucide-react';
+import {
+  Sidebar,
+  SidebarContent,
+  SidebarFooter,
+  SidebarHeader,
+  SidebarMenu,
+  SidebarMenuButton,
+  SidebarMenuItem,
+  SidebarRail,
+  SidebarSeparator,
+} from '@/components/ui/sidebar';
 
 const navigation = [
   { name: 'Executive Summary', href: '/', icon: LayoutDashboard },
@@ -24,45 +34,62 @@ export function NavSidebar() {
   const pathname = usePathname();
 
   return (
-    <div className="flex h-full w-64 flex-col border-r bg-muted/40">
-      <div className="flex h-48 items-center border-b px-4">
-        <Image
-          src="/ICPSLogo.png"
-          alt="ICPS Logo"
-          width={180}
-          height={60}
-          className="object-contain"
-          priority
-        />
-      </div>
-      <nav className="flex-1 space-y-1 p-4">
-        {navigation.map((item) => {
-          const isActive = pathname === item.href;
-          return (
-            <Link
-              key={item.name}
-              href={item.href}
-              className={cn(
-                'flex items-center gap-3 rounded-lg px-3 py-2 text-sm font-medium transition-colors',
-                isActive
-                  ? 'bg-primary text-primary-foreground'
-                  : 'text-muted-foreground hover:bg-muted hover:text-foreground'
-              )}
-            >
-              <item.icon className="h-4 w-4" />
-              {item.name}
-            </Link>
-          );
-        })}
-      </nav>
-      <div className="border-t p-4">
-        <p className="text-xs text-muted-foreground">
-          Electoral Workforce Survey
-        </p>
-        <p className="text-xs text-muted-foreground">
-          ICPS &amp; BSV Association
-        </p>
-      </div>
-    </div>
+    <Sidebar collapsible="icon">
+      <SidebarHeader className="p-4">
+        <div className="flex items-center justify-center group-data-[collapsible=icon]:hidden">
+          <Image
+            src="/ICPSLogo.png"
+            alt="ICPS Logo"
+            width={180}
+            height={60}
+            className="object-contain"
+            priority
+          />
+        </div>
+        <div className="hidden items-center justify-center group-data-[collapsible=icon]:flex">
+          <Image
+            src="/ICPSLogo.png"
+            alt="ICPS Logo"
+            width={32}
+            height={32}
+            className="object-contain"
+            priority
+          />
+        </div>
+      </SidebarHeader>
+      <SidebarSeparator />
+      <SidebarContent>
+        <SidebarMenu className="p-2">
+          {navigation.map((item) => {
+            const isActive = pathname === item.href;
+            return (
+              <SidebarMenuItem key={item.name}>
+                <SidebarMenuButton
+                  asChild
+                  isActive={isActive}
+                  tooltip={item.name}
+                >
+                  <Link href={item.href}>
+                    <item.icon className="h-4 w-4" />
+                    <span>{item.name}</span>
+                  </Link>
+                </SidebarMenuButton>
+              </SidebarMenuItem>
+            );
+          })}
+        </SidebarMenu>
+      </SidebarContent>
+      <SidebarFooter className="p-4">
+        <div className="group-data-[collapsible=icon]:hidden">
+          <p className="text-xs text-muted-foreground">
+            Electoral Workforce Survey
+          </p>
+          <p className="text-xs text-muted-foreground">
+            ICPS &amp; BSV Association
+          </p>
+        </div>
+      </SidebarFooter>
+      <SidebarRail />
+    </Sidebar>
   );
 }
